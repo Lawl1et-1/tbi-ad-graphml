@@ -1,0 +1,28 @@
+{
+  "adjusted": {
+    "mean_rho_obs": 0.1712,
+    "per_region": {
+      "TCx": 0.0445,
+      "PCx": -0.1857,
+      "HIP": 0.3843,
+      "FWM": 0.4417
+    },
+    "perm_p_two_sided": 0.24175824175824176,
+    "perm_p_one_sided_positive": 0.13886113886113885,
+    "null_sd": 0.1475,
+    "pairs": 48
+  },
+  "unadjusted": {
+    "mean_rho_obs": 0.1806,
+    "per_region": {
+      "TCx": 0.0477,
+      "PCx": -0.1723,
+      "HIP": 0.4038,
+      "FWM": 0.4431
+    },
+    "perm_p_two_sided": 0.21078921078921078,
+    "perm_p_one_sided_positive": 0.12087912087912088,
+    "null_sd": 0.1447,
+    "pairs": 48
+  }
+}

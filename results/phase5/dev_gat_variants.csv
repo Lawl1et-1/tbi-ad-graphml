@@ -1,0 +1,4 @@
+variant,dev_val_auroc,best_epoch,epochs_run,seconds
+A_pool_lr1e-3_min15,0.5237179487179487,14,27,213
+B_gene_lr1e-3_min15,0.889102564102564,17,26,194
+B_gene_lr3e-3_min10,0.903846153846154,7,21,156

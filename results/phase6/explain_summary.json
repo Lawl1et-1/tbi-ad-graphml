@@ -1,0 +1,267 @@
+{
+  "top200_pairwise_jaccard": 0.12870410400053045,
+  "spearman_absIG_between_models_mean": 0.33026428024160387,
+  "spearman_absIG_vs_abs_lr_coef": 0.2046211761013235,
+  "spearman_absIG_vs_abs_ad_z": 0.000600308850019303,
+  "spearman_absIG_vs_degree": 0.07683667522771336,
+  "n_stable_genes": 23,
+  "stable_genes_in_phase3_AD_signature": 15,
+  "stable_top30": [
+    "CACNA1H",
+    "TFRC",
+    "SLC22A6",
+    "CDC42",
+    "BBOX1",
+    "BYSL",
+    "KCTD13",
+    "GIMAP1",
+    "TSPAN1",
+    "TGDS",
+    "CD9",
+    "MYC",
+    "ARHGAP6",
+    "TSGA10",
+    "AIFM3",
+    "NQO1",
+    "PIGK",
+    "RPRM",
+    "ATXN7L2",
+    "DENND2D",
+    "ZNF83",
+    "GAD2",
+    "FRK"
+  ],
+  "phase3_overlap_genes_total": 118,
+  "phase3_overlap_genes_in_stable": [
+    "RPRM"
+  ],
+  "enrichment_top": [
+    {
+      "genes": "up_in_AD",
+      "library": "PanglaoDB_Augmented_2021",
+      "Term": "Intercalated Cells",
+      "Overlap": "3/25",
+      "Adjusted P-value": 0.0009644919654588893
+    },
+    {
+      "genes": "up_in_AD",
+      "library": "PanglaoDB_Augmented_2021",
+      "Term": "Distal Tubule Cells",
+      "Overlap": "3/46",
+      "Adjusted P-value": 0.003083672639293249
+    },
+    {
+      "genes": "all",
+      "library": "PanglaoDB_Augmented_2021",
+      "Term": "Distal Tubule Cells",
+      "Overlap": "4/46",
+      "Adjusted P-value": 0.00751317861784601
+    },
+    {
+      "genes": "all",
+      "library": "PanglaoDB_Augmented_2021",
+      "Term": "Intercalated Cells",
+      "Overlap": "3/25",
+      "Adjusted P-value": 0.01143466612933319
+    },
+    {
+      "genes": "down_in_AD",
+      "library": "Reactome_2022",
+      "Term": "RAC3 GTPase Cycle R-HSA-9013423",
+      "Overlap": "3/36",
+      "Adjusted P-value": 0.014494202848459016
+    },
+    {
+      "genes": "down_in_AD",
+      "library": "Reactome_2022",
+      "Term": "RND2 GTPase Cycle R-HSA-9696270",
+      "Overlap": "2/11",
+      "Adjusted P-value": 0.023249093285672564
+    },
+    {
+      "genes": "down_in_AD",
+      "library": "Reactome_2022",
+      "Term": "RHO GTPase Cycle R-HSA-9012999",
+      "Overlap": "4/159",
+      "Adjusted P-value": 0.03213168812216239
+    }
+  ],
+  "marker_percentiles": {
+    "microglia/macrophage": {
+      "AIF1": 3.6,
+      "CD163": 27.7,
+      "C1QA": 66.3,
+      "C1QC": 55.7,
+      "TREM2": 74.4,
+      "TYROBP": 51.2,
+      "CSF1R": 51.0,
+      "CD14": 0.4,
+      "HLA-DRA": 96.4,
+      "SPP1": 32.6,
+      "CD74": 89.9,
+      "ITGAM": 16.8,
+      "P2RY12": 75.5,
+      "CX3CR1": 36.3
+    },
+    "reactive astrocyte": {
+      "GFAP": 50.4,
+      "SERPINA3": 12.4,
+      "CHI3L1": 3.3,
+      "C3": 81.3,
+      "VIM": 17.0,
+      "CD44": 99.6,
+      "OSMR": 33.4
+    },
+    "neuronal/synaptic": {
+      "SST": 60.8,
+      "VGF": 56.0,
+      "BDNF": 90.2,
+      "SNAP25": 94.6,
+      "SYT1": 96.3,
+      "NRN1": 66.9,
+      "CALB1": 22.9,
+      "NPY": 36.5
+    },
+    "complement": {
+      "C1QA": 66.3,
+      "C3": 81.3,
+      "CFH": 67.8,
+      "C1S": 33.3,
+      "C1R": 41.4
+    }
+  },
+  "spearman_incoming_attention_vs_degree": 0.9644263059827246,
+  "spearman_incoming_attention_vs_absIG": -0.02726249401202649,
+  "top_attention_edges": [
+    {
+      "source": "SLC36A4",
+      "target": "SLC36A1",
+      "attention": 0.7063999772071838
+    },
+    {
+      "source": "DBN1",
+      "target": "CAP2",
+      "attention": 0.6870999932289124
+    },
+    {
+      "source": "DACH1",
+      "target": "DACH2",
+      "attention": 0.6812000274658203
+    },
+    {
+      "source": "CD44",
+      "target": "CLEC4G",
+      "attention": 0.6809999942779541
+    },
+    {
+      "source": "FAM131B",
+      "target": "RNF130",
+      "attention": 0.6783000230789185
+    },
+    {
+      "source": "LCP1",
+      "target": "PLS3",
+      "attention": 0.6757000088691711
+    },
+    {
+      "source": "DFFB",
+      "target": "HMGB2",
+      "attention": 0.6668000221252441
+    },
+    {
+      "source": "TNFRSF1A",
+      "target": "TNFSF13",
+      "attention": 0.660099983215332
+    },
+    {
+      "source": "CACNA1H",
+      "target": "ATP2B3",
+      "attention": 0.6523000001907349
+    },
+    {
+      "source": "AGTRAP",
+      "target": "PITPNC1",
+      "attention": 0.6489999890327454
+    },
+    {
+      "source": "CCL5",
+      "target": "GPR75",
+      "attention": 0.6467999815940857
+    },
+    {
+      "source": "CLTC",
+      "target": "SMAP1",
+      "attention": 0.6456000208854675
+    },
+    {
+      "source": "ELK1",
+      "target": "KCNH3",
+      "attention": 0.6396999955177307
+    },
+    {
+      "source": "ELAVL4",
+      "target": "HIVEP3",
+      "attention": 0.6347000002861023
+    },
+    {
+      "source": "WEE1",
+      "target": "BRSK2",
+      "attention": 0.6312000155448914
+    }
+  ],
+  "tbi_attr_pairs": 48,
+  "tbi_attr_fdr05": 0,
+  "tbi_attr_fdr05_within_stable": 0,
+  "tbi_attr_top10_stable": [
+    {
+      "index": "NQO1",
+      "mean_diff": 0.05576999858021736,
+      "p": 0.04651999846100807
+    },
+    {
+      "index": "RPRM",
+      "mean_diff": 0.03355000168085098,
+      "p": 0.0579800009727478
+    },
+    {
+      "index": "TGDS",
+      "mean_diff": 0.038419999182224274,
+      "p": 0.06227000057697296
+    },
+    {
+      "index": "ARHGAP6",
+      "mean_diff": 0.025289999321103096,
+      "p": 0.08585000038146973
+    },
+    {
+      "index": "ATXN7L2",
+      "mean_diff": 0.028109999373555183,
+      "p": 0.12857000529766083
+    },
+    {
+      "index": "BYSL",
+      "mean_diff": 0.052880000323057175,
+      "p": 0.15374000370502472
+    },
+    {
+      "index": "TFRC",
+      "mean_diff": 0.057349998503923416,
+      "p": 0.24683000147342682
+    },
+    {
+      "index": "TSPAN1",
+      "mean_diff": -0.021779999136924744,
+      "p": 0.28661999106407166
+    },
+    {
+      "index": "DENND2D",
+      "mean_diff": 0.013799999840557575,
+      "p": 0.3153899908065796
+    },
+    {
+      "index": "KCTD13",
+      "mean_diff": 0.02597000077366829,
+      "p": 0.3407300114631653
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "string_ge700": {
+    "nodes": 4000,
+    "edges": 18864,
+    "isolated_genes": 359,
+    "components": 396,
+    "largest_component": 3559,
+    "second_component": 4,
+    "mean_degree": 9.432,
+    "median_degree": 5.0,
+    "max_degree": 187,
+    "density": 0.0023585896474118528,
+    "avg_clustering": 0.3034710226218459,
+    "top_hubs": [
+      "EGFR",
+      "SRC",
+      "IL6",
+      "FN1",
+      "CD44",
+      "CDC42",
+      "EP300",
+      "STAT1",
+      "IL1B",
+      "ITGB1",
+      "MYC",
+      "JUN",
+      "EGF",
+      "BCL2",
+      "HSP90AB1"
+    ],
+    "giant_avg_shortest_path_sample": 4.226666666666667
+  },
+  "coexpression_knn10": {
+    "nodes": 4000,
+    "edges": 36265,
+    "isolated_genes": 0,
+    "components": 1,
+    "largest_component": 4000,
+    "second_component": 0,
+    "mean_degree": 18.1325,
+    "median_degree": 13.0,
+    "max_degree": 155,
+    "density": 0.00453425856464116,
+    "avg_clustering": 0.23168100291599844,
+    "top_hubs": [
+      "NELL1",
+      "HPRT1",
+      "ENC1",
+      "MOAP1",
+      "ATP6V1B2",
+      "PNMA2",
+      "NAPB",
+      "GOT1",
+      "DYNC1I1",
+      "PPP3CB",
+      "PAK1",
+      "UCHL1",
+      "NECAP1",
+      "GABRA1",
+      "ATP6AP2"
+    ],
+    "giant_avg_shortest_path_sample": 3.7666666666666666
+  },
+  "edge_overlap": {
+    "shared_edges": 655,
+    "jaccard": 0.01202408488453207,
+    "expected_shared_if_random": 85.53425356339085,
+    "fold_over_random": 7.6577508157544
+  }
+}

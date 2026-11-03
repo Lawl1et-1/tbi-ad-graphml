@@ -1,0 +1,110 @@
+{
+  "de_tbi_adjusted_TCx": {
+    "genes": 22670,
+    "n": 98,
+    "fdr05": 0,
+    "fdr10": 0,
+    "p001": 42,
+    "p01": 367,
+    "expected_p01_by_chance": 226.7
+  },
+  "de_dementia_TCx": {
+    "genes": 22670,
+    "n": 98,
+    "fdr05": 0,
+    "fdr10": 14,
+    "p001": 137,
+    "p01": 786,
+    "expected_p01_by_chance": 226.7
+  },
+  "de_tbi_unadjusted_TCx": {
+    "genes": 22670,
+    "n": 98,
+    "fdr05": 0,
+    "fdr10": 0,
+    "p001": 42,
+    "p01": 402,
+    "expected_p01_by_chance": 226.7
+  },
+  "de_tbi_adjusted_PCx": {
+    "genes": 22787,
+    "n": 91,
+    "fdr05": 0,
+    "fdr10": 0,
+    "p001": 5,
+    "p01": 94,
+    "expected_p01_by_chance": 227.9
+  },
+  "de_dementia_PCx": {
+    "genes": 22787,
+    "n": 91,
+    "fdr05": 0,
+    "fdr10": 0,
+    "p001": 11,
+    "p01": 150,
+    "expected_p01_by_chance": 227.9
+  },
+  "de_tbi_unadjusted_PCx": {
+    "genes": 22787,
+    "n": 91,
+    "fdr05": 0,
+    "fdr10": 0,
+    "p001": 6,
+    "p01": 92,
+    "expected_p01_by_chance": 227.9
+  },
+  "de_tbi_adjusted_HIP": {
+    "genes": 22361,
+    "n": 94,
+    "fdr05": 0,
+    "fdr10": 0,
+    "p001": 10,
+    "p01": 193,
+    "expected_p01_by_chance": 223.6
+  },
+  "de_dementia_HIP": {
+    "genes": 22361,
+    "n": 94,
+    "fdr05": 2,
+    "fdr10": 2,
+    "p001": 64,
+    "p01": 402,
+    "expected_p01_by_chance": 223.6
+  },
+  "de_tbi_unadjusted_HIP": {
+    "genes": 22361,
+    "n": 94,
+    "fdr05": 0,
+    "fdr10": 0,
+    "p001": 13,
+    "p01": 232,
+    "expected_p01_by_chance": 223.6
+  },
+  "de_tbi_adjusted_FWM": {
+    "genes": 22562,
+    "n": 93,
+    "fdr05": 0,
+    "fdr10": 0,
+    "p001": 10,
+    "p01": 196,
+    "expected_p01_by_chance": 225.6
+  },
+  "de_dementia_FWM": {
+    "genes": 22562,
+    "n": 93,
+    "fdr05": 2,
+    "fdr10": 2,
+    "p001": 93,
+    "p01": 768,
+    "expected_p01_by_chance": 225.6
+  },
+  "de_tbi_unadjusted_FWM": {
+    "genes": 22562,
+    "n": 93,
+    "fdr05": 0,
+    "fdr10": 0,
+    "p001": 9,
+    "p01": 142,
+    "expected_p01_by_chance": 225.6
+  }
+}

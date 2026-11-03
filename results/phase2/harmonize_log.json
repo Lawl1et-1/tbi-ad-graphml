@@ -1,0 +1,59 @@
+{
+  "seed": 42,
+  "n_genes_target": 4000,
+  "samples": {
+    "test_ext|GSE33000": 467,
+    "train|GSE118553": 207,
+    "train|GSE132903": 195,
+    "train|GSE48350": 173,
+    "transfer|GSE104687": 376
+  },
+  "allen_seq_batch_min_samples_per_region_batch": 5,
+  "string_edges_ge700_total": 236930,
+  "universe_genes_with_string_edge": 9198,
+  "genes_selected": 4000,
+  "markers_kept": [
+    "APOE",
+    "TREM2",
+    "GFAP",
+    "C1QA",
+    "C3",
+    "AIF1",
+    "CD163",
+    "SST",
+    "VGF",
+    "BDNF",
+    "SNAP25",
+    "SYT1",
+    "SPP1",
+    "HLA-DRA",
+    "SERPINA3",
+    "CHI3L1"
+  ],
+  "markers_missing": [
+    "APP",
+    "MAPT",
+    "AQP4",
+    "CD68",
+    "CLU"
+  ],
+  "markers_not_in_universe": [
+    "AQP4",
+    "CD68"
+  ],
+  "before": {
+    "pc1_var": 0.9423485175896188,
+    "pc2_var": 0.023966743821206327,
+    "dataset_predictable_bal_acc": 0.9977142857142857,
+    "silhouette_dataset": 0.45560401780412274,
+    "silhouette_diagnosis_train": 0.015525775538300752
+  },
+  "after": {
+    "pc1_var": 0.2700406233079595,
+    "pc2_var": 0.08568522431134863,
+    "dataset_predictable_bal_acc": 0.18772886849931966,
+    "silhouette_dataset": -0.049973438943631085,
+    "silhouette_diagnosis_train": 0.050333249378736136
+  },
+  "n_batches": 13
+}

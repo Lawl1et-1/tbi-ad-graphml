@@ -1,0 +1,254 @@
+sample_id,title,dataset,region,age,sex,pmi,diagnosis,braak_roman,apoe,mmse,platform,donor_id,donor_id_inferred,region_group,dementia,tbi,role
+GSM300166,PostcentralGyrus_female_91yrs_indiv10,GSE48350,PCG,91.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C10,False,parietal_cortex,,,train
+GSM300167,SuperiorFrontalGyrus_female_91yrs_indiv10,GSE48350,SFG,91.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C10,False,frontal_cortex,,,train
+GSM300168,Hippocampus_female_96yrs_indiv105,GSE48350,HIP,96.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C105,False,hippocampus,,,train
+GSM300169,Hippocampus_male_82yrs_indiv106,GSE48350,HIP,82.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C106,False,hippocampus,,,train
+GSM300170,Hippocampus_male_84yrs_indiv108,GSE48350,HIP,84.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C108,False,hippocampus,,,train
+GSM300171,Hippocampus_female_87yrs_indiv109,GSE48350,HIP,87.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C109,False,hippocampus,,,train
+GSM300172,Hippocampus_female_82yrs_indiv111,GSE48350,HIP,82.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C111,False,hippocampus,,,train
+GSM300173,EntorhinalCortex_male_45yrs_indiv12,GSE48350,EC,45.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C12,False,entorhinal_cortex,,,excluded
+GSM300174,Hippocampus_male_45yrs_indiv12,GSE48350,HIP,45.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C12,False,hippocampus,,,excluded
+GSM300175,PostcentralGyrus_male_45yrs_indiv12,GSE48350,PCG,45.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C12,False,parietal_cortex,,,excluded
+GSM300176,SuperiorFrontalGyrus_male_45yrs_indiv12,GSE48350,SFG,45.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C12,False,frontal_cortex,,,excluded
+GSM300177,EntorhinalCortex_male_95yrs_indiv14,GSE48350,EC,95.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C14,False,entorhinal_cortex,,,train
+GSM300178,Hippocampus_male_95yrs_indiv14,GSE48350,HIP,95.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C14,False,hippocampus,,,train
+GSM300179,PostcentralGyrus_male_95yrs_indiv14,GSE48350,PCG,95.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C14,False,parietal_cortex,,,train
+GSM300180,SuperiorFrontalGyrus_male_95yrs_indiv14,GSE48350,SFG,95.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C14,False,frontal_cortex,,,train
+GSM300181,EntorhinalCortex_male_80yrs_indiv15,GSE48350,EC,80.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C15,False,entorhinal_cortex,,,train
+GSM300182,Hippocampus_male_80yrs_indiv15,GSE48350,HIP,80.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C15,False,hippocampus,,,train
+GSM300183,PostcentralGyrus_male_80yrs_indiv15,GSE48350,PCG,80.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C15,False,parietal_cortex,,,train
+GSM300185,Hippocampus_male_91yrs_indiv16-07,GSE48350,HIP,91.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C16-07,False,hippocampus,,,train
+GSM300186,EntorhinalCortex_female_45yrs_indiv17,GSE48350,EC,45.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C17,False,entorhinal_cortex,,,excluded
+GSM300187,Hippocampus_female_45yrs_indiv17,GSE48350,HIP,45.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C17,False,hippocampus,,,excluded
+GSM300188,SuperiorFrontalGyrus_female_45yrs_indiv17,GSE48350,SFG,45.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C17,False,frontal_cortex,,,excluded
+GSM300189,EntorhinalCortex_female_74yrs_indiv18,GSE48350,EC,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C18,False,entorhinal_cortex,,,train
+GSM300190,Hippocampus_female_74yrs_indiv18,GSE48350,HIP,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C18,False,hippocampus,,,train
+GSM300191,SuperiorFrontalGyrus_female_74yrs_indiv18,GSE48350,SFG,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C18,False,frontal_cortex,,,train
+GSM300192,EntorhinalCortex_female_99yrs_indiv2,GSE48350,EC,99.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C2,False,entorhinal_cortex,,,train
+GSM300193,Hippocampus_female_99yrs_indiv2,GSE48350,HIP,99.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C2,False,hippocampus,,,train
+GSM300194,PostcentralGyrus_female_99yrs_indiv2,GSE48350,PCG,99.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C2,False,parietal_cortex,,,train
+GSM300195,SuperiorFrontalGyrus_female_99yrs_indiv2,GSE48350,SFG,99.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C2,False,frontal_cortex,,,train
+GSM300196,EntorhinalCortex_female_74yrs_indiv21,GSE48350,EC,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C21,False,entorhinal_cortex,,,train
+GSM300197,Hippocampus_female_74yrs_indiv21,GSE48350,HIP,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C21,False,hippocampus,,,train
+GSM300198,PostcentralGyrus_female_74yrs_indiv21,GSE48350,PCG,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C21,False,parietal_cortex,,,train
+GSM300199,SuperiorFrontalGyrus_female_74yrs_indiv21,GSE48350,SFG,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C21,False,frontal_cortex,,,train
+GSM300200,PostcentralGyrus_female_92yrs_indiv26,GSE48350,PCG,92.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C26,False,parietal_cortex,,,train
+GSM300201,SuperiorFrontalGyrus_female_92yrs_indiv26,GSE48350,SFG,92.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C26,False,frontal_cortex,,,train
+GSM300202,PostcentralGyrus_female_91yrs_indiv27,GSE48350,PCG,91.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C27,False,parietal_cortex,,,train
+GSM300203,SuperiorFrontalGyrus_female_91yrs_indiv27,GSE48350,SFG,91.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C27,False,frontal_cortex,,,train
+GSM300204,EntorhinalCortex_male_83yrs_indiv28,GSE48350,EC,83.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C28,False,entorhinal_cortex,,,train
+GSM300205,Hippocampus_male_83yrs_indiv28,GSE48350,HIP,83.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C28,False,hippocampus,,,train
+GSM300206,PostcentralGyrus_male_83yrs_indiv28,GSE48350,PCG,83.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C28,False,parietal_cortex,,,train
+GSM300207,SuperiorFrontalGyrus_male_83yrs_indiv28,GSE48350,SFG,83.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C28,False,frontal_cortex,,,train
+GSM300208,EntorhinalCortex_male_28yrs_indiv29,GSE48350,EC,28.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C29,False,entorhinal_cortex,,,excluded
+GSM300209,Hippocampus_male_28yrs_indiv29,GSE48350,HIP,28.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C29,False,hippocampus,,,excluded
+GSM300210,PostcentralGyrus_male_28yrs_indiv29,GSE48350,PCG,28.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C29,False,parietal_cortex,,,excluded
+GSM300211,SuperiorFrontalGyrus_male_28yrs_indiv29,GSE48350,SFG,28.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C29,False,frontal_cortex,,,excluded
+GSM300212,PostcentralGyrus_female_74yrs_indiv30,GSE48350,PCG,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C30,False,parietal_cortex,,,train
+GSM300213,SuperiorFrontalGyrus_female_74yrs_indiv30,GSE48350,SFG,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C30,False,frontal_cortex,,,train
+GSM300214,EntorhinalCortex_male_97yrs_indiv34,GSE48350,EC,97.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C34,False,entorhinal_cortex,,,train
+GSM300215,Hippocampus_male_97yrs_indiv34,GSE48350,HIP,97.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C34,False,hippocampus,,,train
+GSM300216,PostcentralGyrus_male_97yrs_indiv34,GSE48350,PCG,97.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C34,False,parietal_cortex,,,train
+GSM300217,SuperiorFrontalGyrus_male_97yrs_indiv34,GSE48350,SFG,97.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C34,False,frontal_cortex,,,train
+GSM300218,EntorhinalCortex_female_34yrs_indiv35,GSE48350,EC,34.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C35,False,entorhinal_cortex,,,excluded
+GSM300219,Hippocampus_female_34yrs_indiv35,GSE48350,HIP,34.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C35,False,hippocampus,,,excluded
+GSM300220,PostcentralGyrus_female_34yrs_indiv35,GSE48350,PCG,34.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C35,False,parietal_cortex,,,excluded
+GSM300221,SuperiorFrontalGyrus_female_34yrs_indiv35,GSE48350,SFG,34.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C35,False,frontal_cortex,,,excluded
+GSM300222,EntorhinalCortex_female_74yrs_indiv38,GSE48350,EC,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C38,False,entorhinal_cortex,,,train
+GSM300223,Hippocampus_female_74yrs_indiv38,GSE48350,HIP,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C38,False,hippocampus,,,train
+GSM300224,PostcentralGyrus_female_74yrs_indiv38,GSE48350,PCG,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C38,False,parietal_cortex,,,train
+GSM300225,SuperiorFrontalGyrus_female_74yrs_indiv38,GSE48350,SFG,74.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C38,False,frontal_cortex,,,train
+GSM300226,PostcentralGyrus_female_90yrs_indiv40,GSE48350,PCG,90.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C40,False,parietal_cortex,,,train
+GSM300227,Hippocampus_female_91yrs_indiv40-04,GSE48350,HIP,91.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C40-04,False,hippocampus,,,train
+GSM300228,EntorhinalCortex_female_44yrs_indiv42,GSE48350,EC,44.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C42,False,entorhinal_cortex,,,excluded
+GSM300229,SuperiorFrontalGyrus_female_44yrs_indiv42,GSE48350,SFG,44.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C42,False,frontal_cortex,,,excluded
+GSM300230,EntorhinalCortex_female_37yrs_indiv45,GSE48350,EC,37.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C45,False,entorhinal_cortex,,,excluded
+GSM300231,Hippocampus_female_37yrs_indiv45,GSE48350,HIP,37.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C45,False,hippocampus,,,excluded
+GSM300232,PostcentralGyrus_female_37yrs_indiv45,GSE48350,PCG,37.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C45,False,parietal_cortex,,,excluded
+GSM300233,SuperiorFrontalGyrus_female_37yrs_indiv45,GSE48350,SFG,37.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C45,False,frontal_cortex,,,excluded
+GSM300234,EntorhinalCortex_male_85yrs_indiv46,GSE48350,EC,85.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C46,False,entorhinal_cortex,,,train
+GSM300235,Hippocampus_male_85yrs_indiv46,GSE48350,HIP,85.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C46,False,hippocampus,,,train
+GSM300236,PostcentralGyrus_male_85yrs_indiv46,GSE48350,PCG,85.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C46,False,parietal_cortex,,,train
+GSM300237,SuperiorFrontalGyrus_male_85yrs_indiv46,GSE48350,SFG,85.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C46,False,frontal_cortex,,,train
+GSM300238,EntorhinalCortex_female_70yrs_indiv47,GSE48350,EC,70.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C47,False,entorhinal_cortex,,,train
+GSM300239,Hippocampus_female_70yrs_indiv47,GSE48350,HIP,70.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C47,False,hippocampus,,,train
+GSM300240,PostcentralGyrus_female_70yrs_indiv47,GSE48350,PCG,70.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C47,False,parietal_cortex,,,train
+GSM300241,SuperiorFrontalGyrus_female_70yrs_indiv47,GSE48350,SFG,70.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C47,False,frontal_cortex,,,train
+GSM300242,EntorhinalCortex_female_64yrs_indiv52,GSE48350,EC,64.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C52,False,entorhinal_cortex,,,train
+GSM300243,Hippocampus_female_64yrs_indiv52,GSE48350,HIP,64.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C52,False,hippocampus,,,train
+GSM300244,PostcentralGyrus_female_64yrs_indiv52,GSE48350,PCG,64.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C52,False,parietal_cortex,,,train
+GSM300245,SuperiorFrontalGyrus_female_64yrs_indiv52,GSE48350,SFG,64.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C52,False,frontal_cortex,,,train
+GSM300246,PostcentralGyrus_male_70yrs_indiv53,GSE48350,PCG,70.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C53,False,parietal_cortex,,,train
+GSM300247,SuperiorFrontalGyrus_male_70yrs_indiv53,GSE48350,SFG,70.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C53,False,frontal_cortex,,,train
+GSM300248,EntorhinalCortex_female_85yrs_indiv54,GSE48350,EC,85.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C54,False,entorhinal_cortex,,,train
+GSM300249,PostcentralGyrus_female_85yrs_indiv54,GSE48350,PCG,85.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C54,False,parietal_cortex,,,train
+GSM300250,SuperiorFrontalGyrus_female_85yrs_indiv54,GSE48350,SFG,85.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C54,False,frontal_cortex,,,train
+GSM300251,SuperiorFrontalGyrus_female_91yrs_indiv59,GSE48350,SFG,91.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C59,False,frontal_cortex,,,train
+GSM300252,EntorhinalCortex_male_21yrs_indiv66,GSE48350,EC,21.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C66,False,entorhinal_cortex,,,excluded
+GSM300253,PostcentralGyrus_male_21yrs_indiv66,GSE48350,PCG,21.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C66,False,parietal_cortex,,,excluded
+GSM300254,SuperiorFrontalGyrus_male_21yrs_indiv66,GSE48350,SFG,21.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C66,False,frontal_cortex,,,excluded
+GSM300255,Hippocampus_male_69yrs_indiv67,GSE48350,HIP,69.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C67,False,hippocampus,,,train
+GSM300256,PostcentralGyrus_male_69yrs_indiv67,GSE48350,PCG,69.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C67,False,parietal_cortex,,,train
+GSM300258,EntorhinalCortex_male_40yrs_indiv68,GSE48350,EC,40.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C68,False,entorhinal_cortex,,,excluded
+GSM300259,PostcentralGyrus_male_40yrs_indiv68,GSE48350,PCG,40.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C68,False,parietal_cortex,,,excluded
+GSM300260,SuperiorFrontalGyrus_male_40yrs_indiv68,GSE48350,SFG,40.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C68,False,frontal_cortex,,,excluded
+GSM300261,EntorhinalCortex_male_52yrs_indiv71,GSE48350,EC,52.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C71,False,entorhinal_cortex,,,excluded
+GSM300262,Hippocampus_male_52yrs_indiv71,GSE48350,HIP,52.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C71,False,hippocampus,,,excluded
+GSM300263,PostcentralGyrus_male_52yrs_indiv71,GSE48350,PCG,52.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C71,False,parietal_cortex,,,excluded
+GSM300264,SuperiorFrontalGyrus_male_52yrs_indiv71,GSE48350,SFG,52.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C71,False,frontal_cortex,,,excluded
+GSM300265,PostcentralGyrus_male_75yrs_indiv72,GSE48350,PCG,75.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C72,False,parietal_cortex,,,train
+GSM300266,SuperiorFrontalGyrus_male_75yrs_indiv72,GSE48350,SFG,75.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C72,False,frontal_cortex,,,train
+GSM300267,EntorhinalCortex_male_86yrs_indiv73,GSE48350,EC,86.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C73,False,entorhinal_cortex,,,train
+GSM300268,Hippocampus_male_86yrs_indiv73,GSE48350,HIP,86.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C73,False,hippocampus,,,train
+GSM300269,PostcentralGyrus_male_86yrs_indiv73,GSE48350,PCG,86.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C73,False,parietal_cortex,,,train
+GSM300270,SuperiorFrontalGyrus_male_86yrs_indiv73,GSE48350,SFG,86.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C73,False,frontal_cortex,,,train
+GSM300271,EntorhinalCortex_female_26yrs_indiv76,GSE48350,EC,26.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C76,False,entorhinal_cortex,,,excluded
+GSM300272,Hippocampus_female_26yrs_indiv76,GSE48350,HIP,26.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C76,False,hippocampus,,,excluded
+GSM300273,PostcentralGyrus_female_26yrs_indiv76,GSE48350,PCG,26.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C76,False,parietal_cortex,,,excluded
+GSM300274,SuperiorFrontalGyrus_female_26yrs_indiv76,GSE48350,SFG,26.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C76,False,frontal_cortex,,,excluded
+GSM300275,EntorhinalCortex_male_20yrs_indiv77,GSE48350,EC,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C77,False,entorhinal_cortex,,,excluded
+GSM300276,Hippocampus_male_20yrs_indiv77,GSE48350,HIP,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C77,False,hippocampus,,,excluded
+GSM300277,PostcentralGyrus_male_20yrs_indiv77,GSE48350,PCG,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C77,False,parietal_cortex,,,excluded
+GSM300278,SuperiorFrontalGyrus_male_20yrs_indiv77,GSE48350,SFG,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C77,False,frontal_cortex,,,excluded
+GSM300279,EntorhinalCortex_male_20yrs_indiv78,GSE48350,EC,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C78,False,entorhinal_cortex,,,excluded
+GSM300280,Hippocampus_male_20yrs_indiv78,GSE48350,HIP,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C78,False,hippocampus,,,excluded
+GSM300281,PostcentralGyrus_male_20yrs_indiv78,GSE48350,PCG,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C78,False,parietal_cortex,,,excluded
+GSM300282,SuperiorFrontalGyrus_male_20yrs_indiv78,GSE48350,SFG,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C78,False,frontal_cortex,,,excluded
+GSM300283,PostcentralGyrus_female_36yrs_indiv79,GSE48350,PCG,36.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C79,False,parietal_cortex,,,excluded
+GSM300284,SuperiorFrontalGyrus_female_36yrs_indiv79,GSE48350,SFG,36.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C79,False,frontal_cortex,,,excluded
+GSM300285,EntorhinalCortex_male_69yrs_indiv8,GSE48350,EC,69.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C8,False,entorhinal_cortex,,,train
+GSM300286,Hippocampus_male_69yrs_indiv8,GSE48350,HIP,69.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C8,False,hippocampus,,,train
+GSM300287,PostcentralGyrus_male_69yrs_indiv8,GSE48350,PCG,69.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C8,False,parietal_cortex,,,train
+GSM300288,SuperiorFrontalGyrus_male_69yrs_indiv8,GSE48350,SFG,69.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C8,False,frontal_cortex,,,train
+GSM300289,EntorhinalCortex_female_44yrs_indiv80,GSE48350,EC,44.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C80,False,entorhinal_cortex,,,excluded
+GSM300290,Hippocampus_female_44yrs_indiv80,GSE48350,HIP,44.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C80,False,hippocampus,,,excluded
+GSM300291,PostcentralGyrus_female_44yrs_indiv80,GSE48350,PCG,44.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C80,False,parietal_cortex,,,excluded
+GSM300292,SuperiorFrontalGyrus_female_44yrs_indiv80,GSE48350,SFG,44.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C80,False,frontal_cortex,,,excluded
+GSM300293,EntorhinalCortex_female_48yrs_indiv81,GSE48350,EC,48.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C81,False,entorhinal_cortex,,,excluded
+GSM300294,Hippocampus_female_48yrs_indiv81,GSE48350,HIP,48.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C81,False,hippocampus,,,excluded
+GSM300295,PostcentralGyrus_female_48yrs_indiv81,GSE48350,PCG,48.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C81,False,parietal_cortex,,,excluded
+GSM300296,SuperiorFrontalGyrus_female_48yrs_indiv81,GSE48350,SFG,48.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C81,False,frontal_cortex,,,excluded
+GSM300297,EntorhinalCortex_female_30yrs_indiv82,GSE48350,EC,30.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C82,False,entorhinal_cortex,,,excluded
+GSM300298,Hippocampus_female_30yrs_indiv82,GSE48350,HIP,30.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C82,False,hippocampus,,,excluded
+GSM300299,SuperiorFrontalGyrus_female_30yrs_indiv82,GSE48350,SFG,30.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C82,False,frontal_cortex,,,excluded
+GSM300300,EntorhinalCortex_male_20yrs_indiv83,GSE48350,EC,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C83,False,entorhinal_cortex,,,excluded
+GSM300301,Hippocampus_male_20yrs_indiv83,GSE48350,HIP,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C83,False,hippocampus,,,excluded
+GSM300302,PostcentralGyrus_male_20yrs_indiv83,GSE48350,PCG,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C83,False,parietal_cortex,,,excluded
+GSM300303,SuperiorFrontalGyrus_male_20yrs_indiv83,GSE48350,SFG,20.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C83,False,frontal_cortex,,,excluded
+GSM300304,EntorhinalCortex_male_33yrs_indiv84,GSE48350,EC,33.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C84,False,entorhinal_cortex,,,excluded
+GSM300305,Hippocampus_male_33yrs_indiv84,GSE48350,HIP,33.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C84,False,hippocampus,,,excluded
+GSM300306,PostcentralGyrus_male_33yrs_indiv84,GSE48350,PCG,33.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C84,False,parietal_cortex,,,excluded
+GSM300307,SuperiorFrontalGyrus_male_33yrs_indiv84,GSE48350,SFG,33.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C84,False,frontal_cortex,,,excluded
+GSM300308,EntorhinalCortex_male_22yrs_indiv85,GSE48350,EC,22.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C85,False,entorhinal_cortex,,,excluded
+GSM300309,Hippocampus_male_22yrs_indiv85,GSE48350,HIP,22.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C85,False,hippocampus,,,excluded
+GSM300310,PostcentralGyrus_male_22yrs_indiv85,GSE48350,PCG,22.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C85,False,parietal_cortex,,,excluded
+GSM300311,SuperiorFrontalGyrus_male_22yrs_indiv85,GSE48350,SFG,22.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C85,False,frontal_cortex,,,excluded
+GSM300312,EntorhinalCortex_male_42yrs_indiv86,GSE48350,EC,42.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C86,False,entorhinal_cortex,,,excluded
+GSM300313,Hippocampus_male_42yrs_indiv86,GSE48350,HIP,42.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C86,False,hippocampus,,,excluded
+GSM300314,PostcentralGyrus_male_42yrs_indiv86,GSE48350,PCG,42.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C86,False,parietal_cortex,,,excluded
+GSM300315,SuperiorFrontalGyrus_male_42yrs_indiv86,GSE48350,SFG,42.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C86,False,frontal_cortex,,,excluded
+GSM300316,EntorhinalCortex_male_45yrs_indiv87,GSE48350,EC,45.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C87,False,entorhinal_cortex,,,excluded
+GSM300317,Hippocampus_male_45yrs_indiv87,GSE48350,HIP,45.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C87,False,hippocampus,,,excluded
+GSM300318,PostcentralGyrus_male_45yrs_indiv87,GSE48350,PCG,45.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C87,False,parietal_cortex,,,excluded
+GSM300319,SuperiorFrontalGyrus_male_45yrs_indiv87,GSE48350,SFG,45.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C87,False,frontal_cortex,,,excluded
+GSM300320,EntorhinalCortex_female_47yrs_indiv88,GSE48350,EC,47.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C88,False,entorhinal_cortex,,,excluded
+GSM300321,Hippocampus_female_47yrs_indiv88,GSE48350,HIP,47.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C88,False,hippocampus,,,excluded
+GSM300322,PostcentralGyrus_female_47yrs_indiv88,GSE48350,PCG,47.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C88,False,parietal_cortex,,,excluded
+GSM300323,SuperiorFrontalGyrus_female_47yrs_indiv88,GSE48350,SFG,47.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C88,False,frontal_cortex,,,excluded
+GSM300324,EntorhinalCortex_male_69yrs_indiv93,GSE48350,EC,69.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C93,False,entorhinal_cortex,,,train
+GSM300325,Hippocampus_male_69yrs_indiv93,GSE48350,HIP,69.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C93,False,hippocampus,,,train
+GSM300326,PostcentralGyrus_male_69yrs_indiv93,GSE48350,PCG,69.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C93,False,parietal_cortex,,,train
+GSM300327,SuperiorFrontalGyrus_male_69yrs_indiv93,GSE48350,SFG,69.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C93,False,frontal_cortex,,,train
+GSM300328,EntorhinalCortex_female_91yrs_indiv94,GSE48350,EC,91.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C94,False,entorhinal_cortex,,,train
+GSM300329,Hippocampus_female_91yrs_indiv94,GSE48350,HIP,91.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C94,False,hippocampus,,,train
+GSM300330,PostcentralGyrus_female_91yrs_indiv94,GSE48350,PCG,91.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C94,False,parietal_cortex,,,train
+GSM300331,SuperiorFrontalGyrus_female_91yrs_indiv94,GSE48350,SFG,91.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C94,False,frontal_cortex,,,train
+GSM300332,EntorhinalCortex_male_75yrs_indiv96,GSE48350,EC,75.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C96,False,entorhinal_cortex,,,train
+GSM300333,Hippocampus_male_75yrs_indiv96,GSE48350,HIP,75.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C96,False,hippocampus,,,train
+GSM300335,SuperiorFrontalGyrus_male_75yrs_indiv96,GSE48350,SFG,75.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C96,False,frontal_cortex,,,train
+GSM300338,EntorhinalCortex_female_82yrs_indiv98,GSE48350,EC,82.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C98,False,entorhinal_cortex,,,train
+GSM300339,Hippocampus_female_82yrs_indiv98,GSE48350,HIP,82.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C98,False,hippocampus,,,train
+GSM300340,PostcentralGyrus_female_82yrs_indiv98,GSE48350,PCG,82.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C98,False,parietal_cortex,,,train
+GSM300341,SuperiorFrontalGyrus_female_82yrs_indiv98,GSE48350,SFG,82.0,F,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C98,False,frontal_cortex,,,train
+GSM318840,SuperiorFrontalGyrus_male_66yrs_indiv63,GSE48350,SFG,66.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C63,False,frontal_cortex,,,train
+GSM350078,SuperiorFrontalGyrus_male_80yrs_indiv15,GSE48350,SFG,80.0,M,,control,,,,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_C15,False,frontal_cortex,,,train
+GSM1176196,entorhinal cortex_female_76_AD_48,GSE48350,EC,76.0,F,,AD,V,"3,3",3,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_42,True,entorhinal_cortex,,,train
+GSM1176197,entorhinal cortex_female_86_AD_15,GSE48350,EC,86.0,F,,AD,VI,"4,4",9,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_43,True,entorhinal_cortex,,,train
+GSM1176198,entorhinal cortex_female_82_AD_9,GSE48350,EC,82.0,F,,AD,VI,"3,4",0,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_44,True,entorhinal_cortex,,,train
+GSM1176199,entorhinal cortex_female_85_AD_24,GSE48350,EC,85.0,F,,AD,IV,"3,4",26,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_45,True,entorhinal_cortex,,,train
+GSM1176200,entorhinal cortex_female_90_AD_36,GSE48350,EC,90.0,F,,AD,IV,"3,4",17,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_46,True,entorhinal_cortex,,,train
+GSM1176201,entorhinal cortex_female_90_AD_6,GSE48350,EC,90.0,F,,AD,V,"3,4",20,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_47,True,entorhinal_cortex,,,train
+GSM1176202,entorhinal cortex_female_90_AD_75,GSE48350,EC,90.0,F,,AD,III,"4,4",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_48,True,entorhinal_cortex,,,train
+GSM1176203,entorhinal cortex_female_91_AD_11,GSE48350,EC,91.0,F,,AD,V-VI,"4,4",11,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_49,True,entorhinal_cortex,,,train
+GSM1176204,entorhinal cortex_male_76_AD_69,GSE48350,EC,76.0,M,,AD,III,"4,4",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_50,True,entorhinal_cortex,,,train
+GSM1176205,entorhinal cortex_male_85_AD_51,GSE48350,EC,85.0,M,,AD,III,"3,3",22,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_51,True,entorhinal_cortex,,,train
+GSM1176206,entorhinal cortex_male_85_AD_74,GSE48350,EC,85.0,M,,AD,II,"3,4",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_52,True,entorhinal_cortex,,,train
+GSM1176207,entorhinal cortex_male_86_AD_92,GSE48350,EC,86.0,M,,AD,IV,"3,3",19,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_53,True,entorhinal_cortex,,,train
+GSM1176208,entorhinal cortex_male_87_AD_19,GSE48350,EC,87.0,M,,AD,V,"3,4",12,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_54,True,entorhinal_cortex,,,train
+GSM1176209,entorhinal cortex_male_94_AD_5,GSE48350,EC,94.0,M,,AD,VI,"3,3",15,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_55,True,entorhinal_cortex,,,train
+GSM1176210,entorhinal cortex_male_94_AD_90,GSE48350,EC,94.0,M,,AD,IV,"3,3",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_56,True,entorhinal_cortex,,,train
+GSM1176211,hippocampus_female_60_AD_20,GSE48350,HIP,60.0,F,,AD,VI,"3,4",12,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_57,True,hippocampus,,,train
+GSM1176212,hippocampus_female_74_AD_37,GSE48350,HIP,74.0,F,,AD,VI,"2,4",17,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_58,True,hippocampus,,,train
+GSM1176213,hippocampus_female_76_AD_48,GSE48350,HIP,76.0,F,,AD,V,"3,3",3,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_42,True,hippocampus,,,train
+GSM1176214,hippocampus_female_79_AD_16,GSE48350,HIP,79.0,F,,AD,VI,"3,4",0,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_59,True,hippocampus,,,train
+GSM1176215,hippocampus_female_86_AD_15,GSE48350,HIP,86.0,F,,AD,VI,"4,4",9,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_43,True,hippocampus,,,train
+GSM1176216,hippocampus_female_85_AD_24,GSE48350,HIP,85.0,F,,AD,IV,"3,4",26,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_45,True,hippocampus,,,train
+GSM1176217,hippocampus_female_90_AD_23,GSE48350,HIP,90.0,F,,AD,VI,"3,4",12,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_60,True,hippocampus,,,train
+GSM1176218,hippocampus_female_90_AD_36,GSE48350,HIP,90.0,F,,AD,IV,"3,4",17,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_46,True,hippocampus,,,train
+GSM1176219,hippocampus_female_90_AD_75,GSE48350,HIP,90.0,F,,AD,III,"4,4",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_48,True,hippocampus,,,train
+GSM1176220,hippocampus_female_91_AD_11,GSE48350,HIP,91.0,F,,AD,V-VI,"4,4",11,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_49,True,hippocampus,,,train
+GSM1176221,hippocampus_male_76_AD_33,GSE48350,HIP,76.0,M,,AD,V,"4,4",0,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_61,True,hippocampus,,,train
+GSM1176222,hippocampus_male_76_AD_69,GSE48350,HIP,76.0,M,,AD,III,"4,4",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_50,True,hippocampus,,,train
+GSM1176223,hippocampus_male_79_AD_7,GSE48350,HIP,79.0,M,,AD,VI,"3,4",6,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_62,True,hippocampus,,,train
+GSM1176224,hippocampus_male_80_AD_43,GSE48350,HIP,80.0,M,,AD,no info,"3,3",23,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_63,True,hippocampus,,,train
+GSM1176225,hippocampus_male_85_AD_51,GSE48350,HIP,85.0,M,,AD,III,"3,3",22,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_51,True,hippocampus,,,train
+GSM1176226,hippocampus_male_86_AD_92,GSE48350,HIP,86.0,M,,AD,IV,"3,3",19,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_53,True,hippocampus,,,train
+GSM1176227,hippocampus_male_87_AD_19,GSE48350,HIP,87.0,M,,AD,V,"3,4",12,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_54,True,hippocampus,,,train
+GSM1176228,hippocampus_male_94_AD_5,GSE48350,HIP,94.0,M,,AD,VI,"3,3",15,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_55,True,hippocampus,,,train
+GSM1176229,hippocampus_male_94_AD_90,GSE48350,HIP,94.0,M,,AD,IV,"3,3",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_56,True,hippocampus,,,train
+GSM1176230,post-central gyrus_female_60_AD_20,GSE48350,PCG,60.0,F,,AD,VI,"3,4",12,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_57,True,parietal_cortex,,,train
+GSM1176231,post-central gyrus_female_74_AD_37,GSE48350,PCG,74.0,F,,AD,VI,"2,4",17,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_58,True,parietal_cortex,,,train
+GSM1176232,post-central gyrus_female_76_AD_48,GSE48350,PCG,76.0,F,,AD,V,"3,3",3,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_42,True,parietal_cortex,,,train
+GSM1176233,post-central gyrus_female_86_AD_15,GSE48350,PCG,86.0,F,,AD,VI,"4,4",9,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_43,True,parietal_cortex,,,train
+GSM1176234,post-central gyrus_female_82_AD_13,GSE48350,PCG,82.0,F,,AD,VI,"3,4",4,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_64,True,parietal_cortex,,,train
+GSM1176235,post-central gyrus_female_82_AD_9,GSE48350,PCG,82.0,F,,AD,VI,"3,4",0,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_44,True,parietal_cortex,,,train
+GSM1176236,post-central gyrus_female_85_AD_24,GSE48350,PCG,85.0,F,,AD,IV,"3,4",26,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_45,True,parietal_cortex,,,train
+GSM1176237,post-central gyrus_female_85_AD_57,GSE48350,PCG,85.0,F,,AD,V,"3,3",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_65,True,parietal_cortex,,,train
+GSM1176238,post-central gyrus_female_90_AD_23,GSE48350,PCG,90.0,F,,AD,VI,"3,4",12,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_60,True,parietal_cortex,,,train
+GSM1176239,post-central gyrus_female_90_AD_36,GSE48350,PCG,90.0,F,,AD,IV,"3,4",17,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_46,True,parietal_cortex,,,train
+GSM1176240,post-central gyrus_female_90_AD_6,GSE48350,PCG,90.0,F,,AD,V,"3,4",20,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_47,True,parietal_cortex,,,train
+GSM1176241,post-central gyrus_female_90_AD_75,GSE48350,PCG,90.0,F,,AD,III,"4,4",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_48,True,parietal_cortex,,,train
+GSM1176242,post-central gyrus_female_91_AD_11,GSE48350,PCG,91.0,F,,AD,V-VI,"4,4",11,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_49,True,parietal_cortex,,,train
+GSM1176243,post-central gyrus_female_94_AD_70,GSE48350,PCG,94.0,F,,AD,I,"3,3",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_66,True,parietal_cortex,,,train
+GSM1176244,post-central gyrus_female_95_AD_64,GSE48350,PCG,95.0,F,,AD,no info,"3,3",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_67,True,parietal_cortex,,,train
+GSM1176245,post-central gyrus_male_76_AD_33,GSE48350,PCG,76.0,M,,AD,V,"4,4",0,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_61,True,parietal_cortex,,,train
+GSM1176246,post-central gyrus_male_76_AD_69,GSE48350,PCG,76.0,M,,AD,III,"4,4",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_50,True,parietal_cortex,,,train
+GSM1176247,post-central gyrus_male_79_AD_7,GSE48350,PCG,79.0,M,,AD,VI,"3,4",6,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_62,True,parietal_cortex,,,train
+GSM1176248,post-central gyrus_male_85_AD_51,GSE48350,PCG,85.0,M,,AD,III,"3,3",22,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_51,True,parietal_cortex,,,train
+GSM1176249,post-central gyrus_male_85_AD_74,GSE48350,PCG,85.0,M,,AD,II,"3,4",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_52,True,parietal_cortex,,,train
+GSM1176250,post-central gyrus_male_86_AD_92,GSE48350,PCG,86.0,M,,AD,IV,"3,3",19,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_53,True,parietal_cortex,,,train
+GSM1176251,post-central gyrus_male_87_AD_19,GSE48350,PCG,87.0,M,,AD,V,"3,4",12,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_54,True,parietal_cortex,,,train
+GSM1176252,post-central gyrus_male_94_AD_44,GSE48350,PCG,94.0,M,,AD,IV,"3,4",18,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_68,True,parietal_cortex,,,train
+GSM1176253,post-central gyrus_male_94_AD_5,GSE48350,PCG,94.0,M,,AD,VI,"3,3",15,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_55,True,parietal_cortex,,,train
+GSM1176254,post-central gyrus_male_94_AD_90,GSE48350,PCG,94.0,M,,AD,IV,"3,3",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_56,True,parietal_cortex,,,train
+GSM1176255,superior frontal gyrus_female_74_AD_37,GSE48350,SFG,74.0,F,,AD,VI,"2,4",17,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_58,True,frontal_cortex,,,train
+GSM1176256,superior frontal gyrus_female_76_AD_48,GSE48350,SFG,76.0,F,,AD,V,"3,3",3,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_42,True,frontal_cortex,,,train
+GSM1176257,superior frontal gyrus_female_86_AD_15,GSE48350,SFG,86.0,F,,AD,VI,"4,4",9,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_43,True,frontal_cortex,,,train
+GSM1176258,superior frontal gyrus_female_82_AD_9,GSE48350,SFG,82.0,F,,AD,VI,"3,4",0,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_44,True,frontal_cortex,,,train
+GSM1176259,superior frontal gyrus_female_85_AD_24,GSE48350,SFG,85.0,F,,AD,IV,"3,4",26,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_45,True,frontal_cortex,,,train
+GSM1176260,superior frontal gyrus_female_85_AD_57,GSE48350,SFG,85.0,F,,AD,V,"3,3",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_65,True,frontal_cortex,,,train
+GSM1176261,superior frontal gyrus_female_88_AD_91,GSE48350,SFG,88.0,F,,AD,IV,"3,4",27,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_69,True,frontal_cortex,,,train
+GSM1176262,superior frontal gyrus_female_90_AD_23,GSE48350,SFG,90.0,F,,AD,VI,"3,4",12,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_60,True,frontal_cortex,,,train
+GSM1176263,superior frontal gyrus_female_90_AD_36,GSE48350,SFG,90.0,F,,AD,IV,"3,4",17,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_46,True,frontal_cortex,,,train
+GSM1176264,superior frontal gyrus_female_90_AD_6,GSE48350,SFG,90.0,F,,AD,V,"3,4",20,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_47,True,frontal_cortex,,,train
+GSM1176265,superior frontal gyrus_female_90_AD_75,GSE48350,SFG,90.0,F,,AD,III,"4,4",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_48,True,frontal_cortex,,,train
+GSM1176266,superior frontal gyrus_female_91_AD_11,GSE48350,SFG,91.0,F,,AD,V-VI,"4,4",11,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_49,True,frontal_cortex,,,train
+GSM1176267,superior frontal gyrus_female_94_AD_70,GSE48350,SFG,94.0,F,,AD,I,"3,3",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_66,True,frontal_cortex,,,train
+GSM1176268,superior frontal gyrus_female_95_AD_64,GSE48350,SFG,95.0,F,,AD,no info,"3,3",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_67,True,frontal_cortex,,,train
+GSM1176269,superior frontal gyrus_male_76_AD_33,GSE48350,SFG,76.0,M,,AD,V,"4,4",0,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_61,True,frontal_cortex,,,train
+GSM1176270,superior frontal gyrus_male_85_AD_51,GSE48350,SFG,85.0,M,,AD,III,"3,3",22,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_51,True,frontal_cortex,,,train
+GSM1176271,superior frontal gyrus_male_85_AD_74,GSE48350,SFG,85.0,M,,AD,II,"3,4",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_52,True,frontal_cortex,,,train
+GSM1176272,superior frontal gyrus_male_86_AD_92,GSE48350,SFG,86.0,M,,AD,IV,"3,3",19,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_53,True,frontal_cortex,,,train
+GSM1176273,superior frontal gyrus_male_94_AD_44,GSE48350,SFG,94.0,M,,AD,IV,"3,4",18,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_68,True,frontal_cortex,,,train
+GSM1176274,superior frontal gyrus_male_94_AD_5,GSE48350,SFG,94.0,M,,AD,VI,"3,3",15,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_55,True,frontal_cortex,,,train
+GSM1176275,superior frontal gyrus_male_94_AD_90,GSE48350,SFG,94.0,M,,AD,IV,"3,3",no info,GPL570 (Affymetrix U133 Plus 2.0),GSE48350_ADinf_56,True,frontal_cortex,,,train

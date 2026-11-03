@@ -1,0 +1,6 @@
+dataset,role,AUROC_PC1_AD,n_AD,n_ctrl,PC1_vs_age_in_controls_rho,p
+GSE104687,transfer,0.652,152,196,0.09,0.231
+GSE118553,train,0.745,129,78,,
+GSE132903,train,0.778,97,98,-0.09,0.399
+GSE33000,test_ext,0.902,310,157,-0.5,0.0
+GSE48350,train,0.591,80,93,-0.13,0.211

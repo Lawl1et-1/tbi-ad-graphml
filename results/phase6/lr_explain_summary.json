@@ -1,0 +1,482 @@
+{
+  "lr_top200_pairwise_jaccard": 0.38204105511682224,
+  "lr_coef_spearman_between_models": 0.8468105954569122,
+  "spearman_coef_vs_ad_z": 0.2694318421519901,
+  "spearman_abscoef_vs_gat_absIG": 0.2046211761013235,
+  "lr_n_stable": 102,
+  "lr_stable_top40": [
+    "TAC1",
+    "BTK",
+    "TSPAN1",
+    "PIF1",
+    "LSP1",
+    "AQP9",
+    "CACNA1H",
+    "RPH3A",
+    "GABRG3",
+    "DENND2D",
+    "MKRN3",
+    "AGMAT",
+    "TEAD2",
+    "TBXA2R",
+    "SLC4A8",
+    "CARTPT",
+    "MARVELD2",
+    "CYP27C1",
+    "MAP4",
+    "GFAP",
+    "ANGPTL1",
+    "EIF3C",
+    "B3GNT6",
+    "KCNQ4",
+    "NGB",
+    "DPYS",
+    "HSD17B12",
+    "HBB",
+    "ALDH1A1",
+    "PRPH2",
+    "DNAH2",
+    "ALDH4A1",
+    "RPL36A",
+    "MCOLN1",
+    "FLNC",
+    "NRP1",
+    "NQO1",
+    "ANKRD9",
+    "KCNG3",
+    "TBC1D4"
+  ],
+  "lr_stable_sign_agrees_with_ad_z": 0.7450980392156863,
+  "marker_percentiles_lr": {
+    "microglia/macrophage": {
+      "AIF1": 14.3,
+      "CD163": 68.7,
+      "C1QA": 37.3,
+      "C1QC": 94.8,
+      "TREM2": 71.0,
+      "TYROBP": 49.9,
+      "CSF1R": 64.2,
+      "CD14": 26.2,
+      "HLA-DRA": 74.7,
+      "SPP1": 91.6,
+      "CD74": 46.6,
+      "ITGAM": 27.7,
+      "P2RY12": 12.1,
+      "CX3CR1": 90.1
+    },
+    "reactive astrocyte": {
+      "GFAP": 99.5,
+      "SERPINA3": 73.6,
+      "CHI3L1": 1.2,
+      "C3": 26.2,
+      "VIM": 1.8,
+      "CD44": 87.6,
+      "OSMR": 46.8
+    },
+    "neuronal/synaptic": {
+      "SST": 48.9,
+      "VGF": 82.8,
+      "BDNF": 40.2,
+      "SNAP25": 7.5,
+      "SYT1": 29.7,
+      "NRN1": 86.0,
+      "CALB1": 3.0,
+      "NPY": 39.9
+    },
+    "complement": {
+      "C1QA": 37.3,
+      "C3": 26.2,
+      "CFH": 59.9,
+      "C1S": 23.4,
+      "C1R": 64.4
+    }
+  },
+  "lr_enrichment_top": [
+    {
+      "genes": "away_from_AD",
+      "library": "Reactome_2022",
+      "Term": "Cap-dependent Translation Initiation R-HSA-72737",
+      "Overlap": "3/5",
+      "Adjusted P-value": 0.0032009179265123275
+    },
+    {
+      "genes": "away_from_AD",
+      "library": "Reactome_2022",
+      "Term": "GTP Hydrolysis And Joining Of 60S Ribosomal Subunit R-HSA-72706",
+      "Overlap": "3/5",
+      "Adjusted P-value": 0.0032009179265123275
+    },
+    {
+      "genes": "away_from_AD",
+      "library": "Reactome_2022",
+      "Term": "IRAK4 Deficiency (TLR2/4) R-HSA-5603041",
+      "Overlap": "3/8",
+      "Adjusted P-value": 0.008693267668579656
+    },
+    {
+      "genes": "away_from_AD",
+      "library": "Reactome_2022",
+      "Term": "MyD88 Deficiency (TLR2/4) R-HSA-5602498",
+      "Overlap": "3/8",
+      "Adjusted P-value": 0.008693267668579656
+    },
+    {
+      "genes": "toward_AD",
+      "library": "Reactome_2022",
+      "Term": "BH3-only Proteins Associate With And Inactivate Anti-Apoptotic BCL-2 Members R-HSA-111453",
+      "Overlap": "2/3",
+      "Adjusted P-value": 0.04903446847204547
+    }
+  ],
+  "pairs": 48,
+  "check_sum_of_gene_diffs_SDraw": 1.669347882270813,
+  "gene_level_tbi_contrib_fdr05": 0,
+  "gene_level_top10": [
+    {
+      "index": "TSPAN33",
+      "mean_diff": -0.004619999788701534,
+      "frac_pairs_positive": 0.33333,
+      "p": 0.0018899999558925629,
+      "fdr": 0.98101
+    },
+    {
+      "index": "GPX7",
+      "mean_diff": -0.0026700000744313,
+      "frac_pairs_positive": 0.3125,
+      "p": 0.0025400000158697367,
+      "fdr": 0.98101
+    },
+    {
+      "index": "MDK",
+      "mean_diff": 0.005669999867677689,
+      "frac_pairs_positive": 0.70833,
+      "p": 0.002940000034868717,
+      "fdr": 0.98101
+    },
+    {
+      "index": "ISG20",
+      "mean_diff": -0.015560000203549862,
+      "frac_pairs_positive": 0.3125,
+      "p": 0.0035200000274926424,
+      "fdr": 0.98101
+    },
+    {
+      "index": "SLC1A4",
+      "mean_diff": -0.005919999908655882,
+      "frac_pairs_positive": 0.3125,
+      "p": 0.004350000061094761,
+      "fdr": 0.98101
+    },
+    {
+      "index": "ME1",
+      "mean_diff": -0.0015800000401213765,
+      "frac_pairs_positive": 0.29167,
+      "p": 0.006969999987632036,
+      "fdr": 0.98101
+    },
+    {
+      "index": "TMEM107",
+      "mean_diff": 0.015479999594390392,
+      "frac_pairs_positive": 0.66667,
+      "p": 0.006969999987632036,
+      "fdr": 0.98101
+    },
+    {
+      "index": "TIMM8A",
+      "mean_diff": 0.0027099999133497477,
+      "frac_pairs_positive": 0.66667,
+      "p": 0.007199999876320362,
+      "fdr": 0.98101
+    },
+    {
+      "index": "MID1IP1",
+      "mean_diff": -0.007079999893903732,
+      "frac_pairs_positive": 0.3125,
+      "p": 0.007439999841153622,
+      "fdr": 0.98101
+    },
+    {
+      "index": "NRP2",
+      "mean_diff": 0.022940000519156456,
+      "frac_pairs_positive": 0.6875,
+      "p": 0.008460000157356262,
+      "fdr": 0.98101
+    }
+  ],
+  "pathway_sets_tested": 925,
+  "pathway_fdr05": 0,
+  "pathway_top15": [
+    {
+      "index": "Reactome: Developmental Biology R-HSA-1266738",
+      "mean_diff": 0.23720000684261322,
+      "frac_pairs_positive": 0.6875,
+      "p": 0.0010999999940395355,
+      "fdr": 0.7262,
+      "n_genes": 286,
+      "share_of_total_diff": 0.1421000063419342
+    },
+    {
+      "index": "Reactome: PI Metabolism R-HSA-1483255",
+      "mean_diff": 0.05810000002384186,
+      "frac_pairs_positive": 0.7292,
+      "p": 0.00419999985024333,
+      "fdr": 0.7262,
+      "n_genes": 33,
+      "share_of_total_diff": 0.03480000048875809
+    },
+    {
+      "index": "Reactome: Non-integrin membrane-ECM Interactions R-HSA-3000171",
+      "mean_diff": 0.057999998331069946,
+      "frac_pairs_positive": 0.7292,
+      "p": 0.0052999998442828655,
+      "fdr": 0.7262,
+      "n_genes": 24,
+      "share_of_total_diff": 0.034699998795986176
+    },
+    {
+      "index": "Reactome: Dectin-1 Mediated Noncanonical NF-kB Signaling R-HSA-5607761",
+      "mean_diff": -0.022099999710917473,
+      "frac_pairs_positive": 0.3125,
+      "p": 0.007400000002235174,
+      "fdr": 0.7262,
+      "n_genes": 10,
+      "share_of_total_diff": -0.013199999928474426
+    },
+    {
+      "index": "Reactome: NIK To Noncanonical NF-kB Signaling R-HSA-5676590",
+      "mean_diff": -0.022099999710917473,
+      "frac_pairs_positive": 0.3125,
+      "p": 0.007400000002235174,
+      "fdr": 0.7262,
+      "n_genes": 10,
+      "share_of_total_diff": -0.013199999928474426
+    },
+    {
+      "index": "Reactome: G Alpha (Z) Signaling Events R-HSA-418597",
+      "mean_diff": 0.07159999758005142,
+      "frac_pairs_positive": 0.6875,
+      "p": 0.007899999618530273,
+      "fdr": 0.7262,
+      "n_genes": 24,
+      "share_of_total_diff": 0.042899999767541885
+    },
+    {
+      "index": "Reactome: FOXO-mediated Transcription R-HSA-9614085",
+      "mean_diff": 0.062300000339746475,
+      "frac_pairs_positive": 0.6458,
+      "p": 0.008999999612569809,
+      "fdr": 0.7262,
+      "n_genes": 28,
+      "share_of_total_diff": 0.037300001829862595
+    },
+    {
+      "index": "KEGG: Thyroid hormone signaling pathway",
+      "mean_diff": 0.13830000162124634,
+      "frac_pairs_positive": 0.7083,
+      "p": 0.00989999994635582,
+      "fdr": 0.7262,
+      "n_genes": 49,
+      "share_of_total_diff": 0.0828000009059906
+    },
+    {
+      "index": "Reactome: Sphingolipid Metabolism R-HSA-428157",
+      "mean_diff": 0.035999998450279236,
+      "frac_pairs_positive": 0.6667,
+      "p": 0.010599999688565731,
+      "fdr": 0.7262,
+      "n_genes": 19,
+      "share_of_total_diff": 0.02160000056028366
+    },
+    {
+      "index": "Reactome: Metabolism Of Carbohydrates R-HSA-71387",
+      "mean_diff": 0.12620000541210175,
+      "frac_pairs_positive": 0.6875,
+      "p": 0.010900000110268593,
+      "fdr": 0.7262,
+      "n_genes": 94,
+      "share_of_total_diff": 0.07559999823570251
+    },
+    {
+      "index": "Reactome: ADORA2B Mediated Anti-Inflammatory Cytokine Production R-HSA-9660821",
+      "mean_diff": 0.09610000252723694,
+      "frac_pairs_positive": 0.6667,
+      "p": 0.01119999960064888,
+      "fdr": 0.7262,
+      "n_genes": 42,
+      "share_of_total_diff": 0.0575999990105629
+    },
+    {
+      "index": "Reactome: G Alpha (I) Signaling Events R-HSA-418594",
+      "mean_diff": 0.1339000016450882,
+      "frac_pairs_positive": 0.7083,
+      "p": 0.012299999594688416,
+      "fdr": 0.7262,
+      "n_genes": 105,
+      "share_of_total_diff": 0.08020000159740448
+    },
+    {
+      "index": "Reactome: Transport Of Small Molecules R-HSA-382551",
+      "mean_diff": 0.18719999492168427,
+      "frac_pairs_positive": 0.6458,
+      "p": 0.01269999984651804,
+      "fdr": 0.7262,
+      "n_genes": 228,
+      "share_of_total_diff": 0.11219999939203262
+    },
+    {
+      "index": "Reactome: Synthesis Of PIPs At Plasma Membrane R-HSA-1660499",
+      "mean_diff": 0.060600001364946365,
+      "frac_pairs_positive": 0.7083,
+      "p": 0.013500000350177288,
+      "fdr": 0.7262,
+      "n_genes": 24,
+      "share_of_total_diff": 0.03629999980330467
+    },
+    {
+      "index": "Reactome: Metabolism Of Polyamines R-HSA-351202",
+      "mean_diff": 0.06639999896287918,
+      "frac_pairs_positive": 0.6667,
+      "p": 0.014299999922513962,
+      "fdr": 0.7262,
+      "n_genes": 12,
+      "share_of_total_diff": 0.039799999445676804
+    }
+  ],
+  "cell_types": [
+    {
+      "index": "PanglaoDB: Oligodendrocyte Progenitor Cells",
+      "mean_diff": 0.052299998700618744,
+      "frac_pairs_positive": 0.6042,
+      "p": 0.10670000314712524,
+      "fdr": 0.7313,
+      "n_genes": 66,
+      "share_of_total_diff": 0.031300000846385956
+    },
+    {
+      "index": "PanglaoDB: Pyramidal Cells",
+      "mean_diff": 0.06870000064373016,
+      "frac_pairs_positive": 0.6667,
+      "p": 0.12860000133514404,
+      "fdr": 0.7313,
+      "n_genes": 76,
+      "share_of_total_diff": 0.041200000792741776
+    },
+    {
+      "index": "PanglaoDB: Oligodendrocytes",
+      "mean_diff": 0.10040000081062317,
+      "frac_pairs_positive": 0.5833,
+      "p": 0.13930000364780426,
+      "fdr": 0.7313,
+      "n_genes": 93,
+      "share_of_total_diff": 0.060100000351667404
+    },
+    {
+      "index": "PanglaoDB: Interneurons",
+      "mean_diff": 0.11500000208616257,
+      "frac_pairs_positive": 0.6667,
+      "p": 0.1858000010251999,
+      "fdr": 0.7326,
+      "n_genes": 158,
+      "share_of_total_diff": 0.06889999657869339
+    },
+    {
+      "index": "PanglaoDB: Endothelial Cells",
+      "mean_diff": 0.0421999990940094,
+      "frac_pairs_positive": 0.5833,
+      "p": 0.3203999996185303,
+      "fdr": 0.7579,
+      "n_genes": 123,
+      "share_of_total_diff": 0.025299999862909317
+    },
+    {
+      "index": "PanglaoDB: Fibroblasts",
+      "mean_diff": 0.056699998676776886,
+      "frac_pairs_positive": 0.5625,
+      "p": 0.4124000072479248,
+      "fdr": 0.8117,
+      "n_genes": 122,
+      "share_of_total_diff": 0.03400000184774399
+    },
+    {
+      "index": "PanglaoDB: Astrocytes",
+      "mean_diff": 0.06019999831914902,
+      "frac_pairs_positive": 0.5208,
+      "p": 0.41830000281333923,
+      "fdr": 0.8174,
+      "n_genes": 88,
+      "share_of_total_diff": 0.03610000014305115
+    },
+    {
+      "index": "PanglaoDB: Microglia",
+      "mean_diff": -0.03310000151395798,
+      "frac_pairs_positive": 0.4375,
+      "p": 0.46059998869895935,
+      "fdr": 0.8271,
+      "n_genes": 87,
+      "share_of_total_diff": -0.01979999989271164
+    },
+    {
+      "index": "PanglaoDB: Ependymal Cells",
+      "mean_diff": -0.02759999968111515,
+      "frac_pairs_positive": 0.4583,
+      "p": 0.4986000061035156,
+      "fdr": 0.8271,
+      "n_genes": 23,
+      "share_of_total_diff": -0.016499999910593033
+    },
+    {
+      "index": "PanglaoDB: Pericytes",
+      "mean_diff": -0.01899999938905239,
+      "frac_pairs_positive": 0.4792,
+      "p": 0.5794000029563904,
+      "fdr": 0.84,
+      "n_genes": 88,
+      "share_of_total_diff": -0.01140000019222498
+    },
+    {
+      "index": "PanglaoDB: Smooth Muscle Cells",
+      "mean_diff": 0.02710000053048134,
+      "frac_pairs_positive": 0.5208,
+      "p": 0.6219000220298767,
+      "fdr": 0.856,
+      "n_genes": 89,
+      "share_of_total_diff": 0.016200000420212746
+    },
+    {
+      "index": "PanglaoDB: B Cells",
+      "mean_diff": -0.010999999940395355,
+      "frac_pairs_positive": 0.4792,
+      "p": 0.6730999946594238,
+      "fdr": 0.878,
+      "n_genes": 53,
+      "share_of_total_diff": -0.006599999964237213
+    },
+    {
+      "index": "PanglaoDB: Neurons",
+      "mean_diff": 0.007799999788403511,
+      "frac_pairs_positive": 0.5208,
+      "p": 0.819100022315979,
+      "fdr": 0.9297,
+      "n_genes": 155,
+      "share_of_total_diff": 0.004699999932199717
+    },
+    {
+      "index": "PanglaoDB: Macrophages",
+      "mean_diff": 0.07270000129938126,
+      "frac_pairs_positive": 0.4792,
+      "p": 0.8270000219345093,
+      "fdr": 0.9352,
+      "n_genes": 94,
+      "share_of_total_diff": 0.04349999874830246
+    },
+    {
+      "index": "PanglaoDB: T Cells",
+      "mean_diff": 0.015799999237060547,
+      "frac_pairs_positive": 0.4792,
+      "p": 0.8988999724388123,
+      "fdr": 0.9569,
+      "n_genes": 45,
+      "share_of_total_diff": 0.009399999864399433
+    }
+  ]
+}

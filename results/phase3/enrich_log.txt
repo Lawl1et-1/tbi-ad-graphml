@@ -1,0 +1,157 @@
+2026-11-03 16:55:20,614 [WARNING] Duplicated values found in preranked stats: 0.15% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 16:57:08,815 [WARNING] Duplicated values found in preranked stats: 0.15% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 16:57:30,932 [WARNING] Duplicated values found in preranked stats: 0.15% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 16:58:59,294 [WARNING] Duplicated values found in preranked stats: 0.15% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 16:59:16,459 [WARNING] Duplicated values found in preranked stats: 0.15% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+   list                    library                                                                         Term  Overlap  Adjusted P-value
+AD_down   PanglaoDB_Augmented_2021                                                                      Neurons  130/211      5.683545e-39
+AD_down   PanglaoDB_Augmented_2021                                                                 Interneurons  128/226      3.034561e-33
+AD_down   PanglaoDB_Augmented_2021                                                                   Beta Cells    64/96      7.451327e-22
+AD_down   PanglaoDB_Augmented_2021                                                              Pyramidal Cells    64/97      1.330523e-21
+AD_down   PanglaoDB_Augmented_2021                                                        Enteroendocrine Cells    61/91      3.199191e-21
+AD_down              Reactome_2022                                                 Neuronal System R-HSA-112316  125/307      1.473299e-14
+AD_down            KEGG_2021_Human                                                           Huntington disease   94/216      2.597772e-13
+AD_down            KEGG_2021_Human                                                            Parkinson disease   77/165      5.421379e-13
+AD_down            KEGG_2021_Human                                         Retrograde endocannabinoid signaling   58/111      1.904957e-12
+AD_down            KEGG_2021_Human                                                                Prion disease   82/186      1.909459e-12
+AD_down            KEGG_2021_Human                                                    Oxidative phosphorylation    45/76      2.385807e-12
+AD_down              Reactome_2022                           Transmission Across Chemical Synapses R-HSA-112315   84/192      1.556391e-11
+AD_down GO_Biological_Process_2023                                  Chemical Synaptic Transmission (GO:0007268)   82/197      4.830004e-09
+  AD_up   PanglaoDB_Augmented_2021                                                              Mesangial Cells   51/130      1.252479e-08
+AD_down GO_Biological_Process_2023          Mitochondrial ATP Synthesis Coupled Electron Transport (GO:0042775)    32/50      2.136593e-08
+AD_down GO_Biological_Process_2023                                Aerobic Electron Transport Chain (GO:0019646)    31/49      4.683213e-08
+  AD_up   PanglaoDB_Augmented_2021                                                 Vascular Smooth Muscle Cells    37/87      9.203528e-08
+  AD_up   PanglaoDB_Augmented_2021                                                         Embryonic Stem Cells   49/131      9.203528e-08
+  AD_up   PanglaoDB_Augmented_2021                                                    Pancreatic Stellate Cells    39/94      9.203528e-08
+  AD_up   PanglaoDB_Augmented_2021                                                       Hepatic Stellate Cells   43/111      1.019160e-07
+AD_down              Reactome_2022 Neurotransmitter Receptors And Postsynaptic Signal Transmission R-HSA-112314   62/146      1.228841e-07
+  AD_up            KEGG_2021_Human                                                           Pathways in cancer  108/398      7.353346e-07
+AD_down              Reactome_2022     Citric Acid (TCA) Cycle And Respiratory Electron Transport R-HSA-1428517   48/108      1.615295e-06
+AD_down              Reactome_2022                                  Respiratory Electron Transport R-HSA-611105    34/66      2.379193e-06
+AD_down GO_Biological_Process_2023                                            Cellular Respiration (GO:0045333)    34/64      2.946386e-06
+AD_down GO_Biological_Process_2023                                      Neurotransmitter Secretion (GO:0007269)    22/33      4.982041e-06
+  AD_up            KEGG_2021_Human                                                   TGF-beta signaling pathway    30/73      2.606261e-05
+  AD_up            KEGG_2021_Human                                                   Inflammatory bowel disease    19/39      1.453576e-04
+  AD_up GO_Biological_Process_2023        Positive Regulation Of Intracellular Signal Transduction (GO:1902533)  100/378      1.676214e-04
+  AD_up            KEGG_2021_Human                                          NOD-like receptor signaling pathway   39/118      1.698199e-04
+  AD_up            KEGG_2021_Human                                                                Toxoplasmosis    30/82      1.943040e-04
+  AD_up GO_Biological_Process_2023                       Regulation Of DNA-templated Transcription (GO:0006355) 252/1201      4.286886e-04
+  AD_up GO_Biological_Process_2023                Regulation Of Transcription By RNA Polymerase II (GO:0006357) 256/1253      1.701657e-03
+  AD_up GO_Biological_Process_2023                          Positive Regulation Of Phosphorylation (GO:0042327)   50/164      1.701657e-03
+  AD_up GO_Biological_Process_2023                                      Regulation Of Angiogenesis (GO:0045765)   43/136      1.919261e-03
+  AD_up              Reactome_2022                                               RHO GTPase Cycle R-HSA-9012999   80/336      3.098088e-02
+  AD_up              Reactome_2022                               Signaling By TGFB Family Members R-HSA-9006936   33/105      3.098088e-02
+  AD_up              Reactome_2022                                              RAC1 GTPase Cycle R-HSA-9013149   39/134      3.098088e-02
+GSEA done TCx
+2026-11-03 16:59:17,859 [WARNING] Duplicated values found in preranked stats: 0.14% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:02:40,573 [WARNING] Duplicated values found in preranked stats: 0.14% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:03:20,237 [WARNING] Duplicated values found in preranked stats: 0.14% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:06:01,123 [WARNING] Duplicated values found in preranked stats: 0.14% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:06:26,537 [WARNING] Duplicated values found in preranked stats: 0.14% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+GSEA done PCx
+2026-11-03 17:06:29,017 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:11:33,684 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:12:20,921 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:14:47,929 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:15:14,087 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+GSEA done HIP
+2026-11-03 17:15:16,377 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:20:29,703 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:21:21,175 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:24:02,725 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+2026-11-03 17:24:31,050 [WARNING] Duplicated values found in preranked stats: 0.13% of genes
+The order of those genes will be arbitrary, which may produce unexpected results.
+GSEA done FWM
+region           Term       NES  NOM p-val  FDR q-val
+   TCx AD_down_top300 -1.449541   0.001377   0.004164
+   TCx   AD_up_top300 -1.064746   0.304895   0.298404
+   PCx AD_down_top300  2.428736   0.000000   0.000000
+   PCx   AD_up_top300 -2.000855   0.000000   0.000000
+   HIP AD_down_top300 -3.050865   0.000000   0.000000
+   HIP   AD_up_top300  2.823524   0.000000   0.000000
+   FWM AD_down_top300 -3.965476   0.000000   0.000000
+   FWM   AD_up_top300  2.839745   0.000000   0.000000
+region                    library                                                                                                                        Term       NES  FDR q-val
+   TCx GO_Biological_Process_2023                                                                                                mRNA Processing (GO:0006397) -2.593739    0.00000
+   HIP              Reactome_2022                                                     Formation Of HIV-1 Elongation Complex Containing HIV-1 Tat R-HSA-167200 -2.337846    0.00000
+   HIP              Reactome_2022                                                      Formation Of HIV Elongation Complex In Absence Of HIV Tat R-HSA-167152 -2.337880    0.00000
+   HIP              Reactome_2022                                                                                   mRNA Splicing - Major Pathway R-HSA-72163 -2.342419    0.00000
+   HIP              Reactome_2022                                                            Pausing And Recovery Of Tat-mediated HIV Elongation R-HSA-167238 -2.342461    0.00000
+   TCx GO_Biological_Process_2023                                                                                                Gene Expression (GO:0010467) -3.056344    0.00000
+   TCx GO_Biological_Process_2023                                                                                        Cytoplasmic Translation (GO:0002181) -3.730904    0.00000
+   FWM GO_Biological_Process_2023                                                                             Regulation Of Dendrite Development (GO:0050773) -2.416216    0.00000
+   FWM GO_Biological_Process_2023                                                                                      Oxidative Phosphorylation (GO:0006119) -2.487580    0.00000
+   FWM GO_Biological_Process_2023                                                                               Aerobic Electron Transport Chain (GO:0019646) -2.562867    0.00000
+   FWM GO_Biological_Process_2023                                                                                 Chemical Synaptic Transmission (GO:0007268) -2.563484    0.00000
+   TCx GO_Biological_Process_2023                                                                               Ribosomal Small Subunit Assembly (GO:0000028) -2.450528    0.00000
+   FWM   PanglaoDB_Augmented_2021                                                                                                        Taste Receptor Cells -2.289788    0.00000
+   FWM   PanglaoDB_Augmented_2021                                                                                                                  Beta Cells -2.312336    0.00000
+   FWM   PanglaoDB_Augmented_2021                                                                                                         Cholinergic Neurons -2.314719    0.00000
+   FWM   PanglaoDB_Augmented_2021                                                                                                        Purkinje Fiber Cells -2.330004    0.00000
+   TCx            KEGG_2021_Human                                                                                                                    Ribosome -3.558296    0.00000
+   TCx            KEGG_2021_Human                                                                                                                 Spliceosome -2.677134    0.00000
+   TCx            KEGG_2021_Human                                                                                                                  Proteasome -2.698996    0.00000
+   TCx            KEGG_2021_Human                                                                                                         Coronavirus disease -3.175129    0.00000
+   TCx              Reactome_2022                                                                            Cap-dependent Translation Initiation R-HSA-72737 -3.605847    0.00000
+   TCx              Reactome_2022                                                             GTP Hydrolysis And Joining Of 60S Ribosomal Subunit R-HSA-72706 -3.638714    0.00000
+   TCx              Reactome_2022                                              L13a-mediated Translational Silencing Of Ceruloplasmin Expression R-HSA-156827 -3.651419    0.00000
+   TCx              Reactome_2022                                                   SRP-dependent Cotranslational Protein Targeting To Membrane R-HSA-1799339 -3.672323    0.00000
+   PCx            KEGG_2021_Human                                                                                                          Taste transduction  2.274138    0.00000
+   PCx            KEGG_2021_Human                                                                                   Aldosterone-regulated sodium reabsorption  2.276888    0.00000
+   PCx            KEGG_2021_Human                                                                                                          Nicotine addiction  2.288382    0.00000
+   PCx            KEGG_2021_Human                                                                                                             DNA replication -2.351296    0.00000
+   HIP   PanglaoDB_Augmented_2021                                                                                                               T Cells Naive  2.315371    0.00000
+   HIP   PanglaoDB_Augmented_2021                                                                                                                  Thymocytes  2.322321    0.00000
+   HIP   PanglaoDB_Augmented_2021                                                                                                             Ependymal Cells  2.336923    0.00000
+   HIP   PanglaoDB_Augmented_2021                                                                                                              T Memory Cells  2.342076    0.00000
+   PCx              Reactome_2022                                                                        Formation Of A Pool Of Free 40S Subunits R-HSA-72689 -3.124654    0.00000
+   PCx              Reactome_2022                                                                                       Peptide Chain Elongation R-HSA-156902 -3.170031    0.00000
+   FWM            KEGG_2021_Human                                                                                                      Synaptic vesicle cycle -2.317968    0.00000
+   FWM            KEGG_2021_Human                                                                                                                  Proteasome -2.336248    0.00000
+   FWM            KEGG_2021_Human                                                                                                      Spinocerebellar ataxia -2.405855    0.00000
+   FWM            KEGG_2021_Human                                                                                               Pathways of neurodegeneration -2.446125    0.00000
+   HIP            KEGG_2021_Human                                                                                 Protein processing in endoplasmic reticulum -2.336527    0.00000
+   HIP            KEGG_2021_Human                                                                                                   Citrate cycle (TCA cycle) -2.357993    0.00000
+   HIP            KEGG_2021_Human                                                                                                         Coronavirus disease -2.370607    0.00000
+   HIP            KEGG_2021_Human                                                                                           Non-alcoholic fatty liver disease -2.443246    0.00000
+   PCx              Reactome_2022                                                                                      Selenocysteine Synthesis R-HSA-2408557 -3.116578    0.00000
+   PCx              Reactome_2022                                                                              Eukaryotic Translation Elongation R-HSA-156842 -3.117230    0.00000
+   HIP GO_Biological_Process_2023                                                                                               ncRNA Processing (GO:0034470) -2.509027    0.00000
+   HIP GO_Biological_Process_2023                                                                             Ribosomal Large Subunit Biogenesis (GO:0042273) -2.524192    0.00000
+   HIP GO_Biological_Process_2023                                                                                            Ribosome Biogenesis (GO:0042254) -2.541424    0.00000
+   HIP GO_Biological_Process_2023                                                                                   protein-RNA Complex Assembly (GO:0022618) -2.455481    0.00000
+   PCx   PanglaoDB_Augmented_2021                                                                                                    Retinal Progenitor Cells  2.264147    0.00000
+   PCx   PanglaoDB_Augmented_2021                                                                                                               Reticulocytes -2.299759    0.00000
+   PCx   PanglaoDB_Augmented_2021                                                                                                         Cholinergic Neurons  2.303304    0.00000
+   PCx   PanglaoDB_Augmented_2021                                                                                                         Cajal-Retzius Cells  2.321463    0.00000
+   PCx GO_Biological_Process_2023                                                                                               ncRNA Processing (GO:0034470) -2.317047    0.00000
+   PCx GO_Biological_Process_2023                                                                                            Ribosome Biogenesis (GO:0042254) -2.408608    0.00000
+   PCx GO_Biological_Process_2023                                                                             Ribosomal Small Subunit Biogenesis (GO:0042274) -2.446828    0.00000
+   PCx GO_Biological_Process_2023                                                                                    Signal Release From Synapse (GO:0099643)  2.455013    0.00000
+   FWM              Reactome_2022                                                                                 Respiratory Electron Transport R-HSA-611105 -2.686513    0.00000
+   FWM              Reactome_2022 Respiratory Electron Transport, ATP Synthesis By Chemiosmotic Coupling, Heat Production By Uncoupling Proteins R-HSA-163200 -2.690095    0.00000
+   FWM              Reactome_2022                                                                                                Neuronal System R-HSA-112316 -2.694026    0.00000
+   TCx   PanglaoDB_Augmented_2021                                                                                                         Glycinergic Neurons  2.945973    0.00000
+   TCx   PanglaoDB_Augmented_2021                                                                                                                Pinealocytes  2.074482    0.00000
+   TCx   PanglaoDB_Augmented_2021                                                                                                    Retinal Progenitor Cells  2.123473    0.00000
+   TCx   PanglaoDB_Augmented_2021                                                                                                       Juxtaglomerular Cells -2.145888    0.00000
+   FWM              Reactome_2022                                                    Citric Acid (TCA) Cycle And Respiratory Electron Transport R-HSA-1428517 -2.383898    0.00025

@@ -1,0 +1,10 @@
+.venv/
+data/raw/
+data/processed/*.h5ad
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/phase6/models/
+results/phase6/*.npy
+results/phase3/*.npy
+data/processed/*.parquet

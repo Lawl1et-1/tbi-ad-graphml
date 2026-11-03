@@ -1,0 +1,50 @@
+{
+  "GSE132903": {
+    "n_samples": 195,
+    "n_donors": 195,
+    "n_AD": 97,
+    "n_ctrl": 98,
+    "fdr05": 7247,
+    "fdr05_up": 3765
+  },
+  "GSE118553": {
+    "n_samples": 207,
+    "n_donors": 78,
+    "n_AD": 129,
+    "n_ctrl": 78,
+    "fdr05": 3916,
+    "fdr05_up": 2163
+  },
+  "GSE48350": {
+    "n_samples": 173,
+    "n_donors": 63,
+    "n_AD": 80,
+    "n_ctrl": 93,
+    "fdr05": 541,
+    "fdr05_up": 259
+  },
+  "GSE33000": {
+    "n_samples": 467,
+    "n_donors": 467,
+    "n_AD": 310,
+    "n_ctrl": 157,
+    "fdr05": 8100,
+    "fdr05_up": 3905
+  },
+  "meta": {
+    "genes_tested": 11027,
+    "fdr05": 6625,
+    "fdr05_consistent_3of3": 3914,
+    "up": 1736,
+    "down": 2178
+  },
+  "replication_GSE33000": {
+    "sign_agreement": 0.8569238630556975,
+    "spearman_z_all_genes": 0.6372512468343238
+  },
+  "pairwise_spearman_z": {
+    "GSE132903~GSE118553": 0.27352329351970217,
+    "GSE132903~GSE48350": 0.3632262465870025,
+    "GSE118553~GSE48350": 0.28868840545624824
+  }
+}

@@ -1,0 +1,162 @@
+sample_id,title,dataset,donor_id,region,age,sex,pmi,diagnosis,cell_type,platform,region_group,dementia,tbi,role
+GSM119615,EC control 1,GSE5281,GSE5281_unknown_GSM119615,EC,63.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119616,EC control 2,GSE5281,GSE5281_unknown_GSM119616,EC,85.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119617,EC control 3,GSE5281,GSE5281_unknown_GSM119617,EC,80.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119618,EC control 4,GSE5281,GSE5281_unknown_GSM119618,EC,80.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119619,EC control 5,GSE5281,GSE5281_unknown_GSM119619,EC,102.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119620,EC control 6,GSE5281,GSE5281_unknown_GSM119620,EC,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119621,EC control 7,GSE5281,GSE5281_unknown_GSM119621,EC,76.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119622,EC control 8,GSE5281,GSE5281_unknown_GSM119622,EC,83.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119623,EC control 9,GSE5281,GSE5281_unknown_GSM119623,EC,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119624,EC control 10,GSE5281,GSE5281_unknown_GSM119624,EC,88.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119625,EC control 11,GSE5281,GSE5281_unknown_GSM119625,EC,82.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119626,EC control 12,GSE5281,GSE5281_unknown_GSM119626,EC,69.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119627,EC control 13,GSE5281,GSE5281_unknown_GSM119627,EC,78.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM119628,HIP control 1,GSE5281,GSE5281_unknown_GSM119628,HIP,85.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119629,HIP control 2,GSE5281,GSE5281_unknown_GSM119629,HIP,80.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119630,HIP control 3,GSE5281,GSE5281_unknown_GSM119630,HIP,80.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119631,HIP control 4,GSE5281,GSE5281_unknown_GSM119631,HIP,102.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119632,HIP control 5,GSE5281,GSE5281_unknown_GSM119632,HIP,63.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119633,HIP control 6,GSE5281,GSE5281_unknown_GSM119633,HIP,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119634,HIP control 7,GSE5281,GSE5281_unknown_GSM119634,HIP,76.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119635,HIP control 8,GSE5281,GSE5281_unknown_GSM119635,HIP,83.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119636,HIP control 9,GSE5281,GSE5281_unknown_GSM119636,HIP,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119637,HIP control 10,GSE5281,GSE5281_unknown_GSM119637,HIP,88.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119638,HIP control 11,GSE5281,GSE5281_unknown_GSM119638,HIP,73.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119639,HIP control 12,GSE5281,GSE5281_unknown_GSM119639,HIP,69.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119640,HIP control 13,GSE5281,GSE5281_unknown_GSM119640,HIP,78.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM119641,MTG control 1,GSE5281,GSE5281_unknown_GSM119641,MTG,85.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119642,MTG control 2,GSE5281,GSE5281_unknown_GSM119642,MTG,80.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119643,MTG control 3,GSE5281,GSE5281_unknown_GSM119643,MTG,102.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119644,MTG control 4,GSE5281,GSE5281_unknown_GSM119644,MTG,63.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119645,MTG control 5,GSE5281,GSE5281_unknown_GSM119645,MTG,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119646,MTG control 6,GSE5281,GSE5281_unknown_GSM119646,MTG,83.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119647,MTG control 7,GSE5281,GSE5281_unknown_GSM119647,MTG,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119648,MTG control 8,GSE5281,GSE5281_unknown_GSM119648,MTG,88.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119649,MTG control 9,GSE5281,GSE5281_unknown_GSM119649,MTG,82.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119650,MTG control 10,GSE5281,GSE5281_unknown_GSM119650,MTG,73.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119651,MTG control 11,GSE5281,GSE5281_unknown_GSM119651,MTG,69.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119652,MTG control 12,GSE5281,GSE5281_unknown_GSM119652,MTG,78.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM119653,PC control 1,GSE5281,GSE5281_unknown_GSM119653,PC,85.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119654,PC control 2,GSE5281,GSE5281_unknown_GSM119654,PC,80.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119655,PC control 3,GSE5281,GSE5281_unknown_GSM119655,PC,102.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119656,PC control 4,GSE5281,GSE5281_unknown_GSM119656,PC,63.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119657,PC control 5,GSE5281,GSE5281_unknown_GSM119657,PC,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119658,PC control 6,GSE5281,GSE5281_unknown_GSM119658,PC,76.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119659,PC control 7,GSE5281,GSE5281_unknown_GSM119659,PC,83.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119660,PC control 8,GSE5281,GSE5281_unknown_GSM119660,PC,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119661,PC control 9,GSE5281,GSE5281_unknown_GSM119661,PC,88.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119662,PC control 10,GSE5281,GSE5281_unknown_GSM119662,PC,82.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119663,PC control 11,GSE5281,GSE5281_unknown_GSM119663,PC,73.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119664,PC control 12,GSE5281,GSE5281_unknown_GSM119664,PC,69.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119665,PC control 13,GSE5281,GSE5281_unknown_GSM119665,PC,78.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM119666,SFG control 1,GSE5281,GSE5281_unknown_GSM119666,SFG,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119667,SFG control 2,GSE5281,GSE5281_unknown_GSM119667,SFG,88.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119668,SFG control 3,GSE5281,GSE5281_unknown_GSM119668,SFG,82.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119669,SFG control 4,GSE5281,GSE5281_unknown_GSM119669,SFG,73.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119670,SFG control 5,GSE5281,GSE5281_unknown_GSM119670,SFG,102.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119671,SFG control 6,GSE5281,GSE5281_unknown_GSM119671,SFG,63.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119672,SFG control 7,GSE5281,GSE5281_unknown_GSM119672,SFG,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119673,SFG control 8,GSE5281,GSE5281_unknown_GSM119673,SFG,76.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119674,SFG control 9,GSE5281,GSE5281_unknown_GSM119674,SFG,83.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119675,SFG control 10,GSE5281,GSE5281_unknown_GSM119675,SFG,69.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119676,SFG control 11,GSE5281,GSE5281_unknown_GSM119676,SFG,78.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM119677,VCX control 1,GSE5281,GSE5281_unknown_GSM119677,VCX,85.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119678,VCX control 2,GSE5281,GSE5281_unknown_GSM119678,VCX,80.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119679,VCX control 3,GSE5281,GSE5281_unknown_GSM119679,VCX,63.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119680,VCX control 4,GSE5281,GSE5281_unknown_GSM119680,VCX,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119681,VCX control 5,GSE5281,GSE5281_unknown_GSM119681,VCX,76.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119682,VCX control 6,GSE5281,GSE5281_unknown_GSM119682,VCX,83.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119683,VCX control 7,GSE5281,GSE5281_unknown_GSM119683,VCX,79.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119684,VCX control 8,GSE5281,GSE5281_unknown_GSM119684,VCX,88.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119685,VCX control 9,GSE5281,GSE5281_unknown_GSM119685,VCX,82.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119686,VCX control 10,GSE5281,GSE5281_unknown_GSM119686,VCX,73.0,F,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119687,VCX control 11,GSE5281,GSE5281_unknown_GSM119687,VCX,69.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM119688,VCX control 12,GSE5281,GSE5281_unknown_GSM119688,VCX,78.0,M,,control,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238763,EC_affected_1,GSE5281,GSE5281_unknown_GSM238763,EC,82.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM238790,EC_affected_2,GSE5281,GSE5281_unknown_GSM238790,EC,86.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM238791,EC_affected_3,GSE5281,GSE5281_unknown_GSM238791,EC,93.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM238792,EC_affected_4,GSE5281,GSE5281_unknown_GSM238792,EC,84.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM238793,EC_affected_5,GSE5281,GSE5281_unknown_GSM238793,EC,79.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM238794,EC_affected_6,GSE5281,GSE5281_unknown_GSM238794,EC,78.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM238795,EC_affected_7,GSE5281,GSE5281_unknown_GSM238795,EC,91.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM238796,EC_affected_8,GSE5281,GSE5281_unknown_GSM238796,EC,86.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM238797,EC_affected_9,GSE5281,GSE5281_unknown_GSM238797,EC,97.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM238798,EC_affected_10,GSE5281,GSE5281_unknown_GSM238798,EC,80.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",entorhinal_cortex,,,excluded
+GSM238799,HIP_affected_1,GSE5281,GSE5281_unknown_GSM238799,HIP,72.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM238800,HIP_affected_2,GSE5281,GSE5281_unknown_GSM238800,HIP,73.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM238801,HIP_affected_3,GSE5281,GSE5281_unknown_GSM238801,HIP,75.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM238802,HIP_affected_4,GSE5281,GSE5281_unknown_GSM238802,HIP,70.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM238803,HIP_affected_5,GSE5281,GSE5281_unknown_GSM238803,HIP,85.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM238804,HIP_affected_6,GSE5281,GSE5281_unknown_GSM238804,HIP,77.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM238805,HIP_affected_7,GSE5281,GSE5281_unknown_GSM238805,HIP,79.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM238806,HIP_affected_8,GSE5281,GSE5281_unknown_GSM238806,HIP,88.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM238807,HIP_affected_9,GSE5281,GSE5281_unknown_GSM238807,HIP,81.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM238808,HIP_affected_10,GSE5281,GSE5281_unknown_GSM238808,HIP,78.0,M,,AD,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",hippocampus,,,excluded
+GSM238809,MTG_affected_1,GSE5281,GSE5281_unknown_GSM238809,MTG,73.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238810,MTG_affected_2,GSE5281,GSE5281_unknown_GSM238810,MTG,81.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238811,MTG_affected_3,GSE5281,GSE5281_unknown_GSM238811,MTG,72.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238812,MTG_affected_4,GSE5281,GSE5281_unknown_GSM238812,MTG,75.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238813,MTG_affected_5,GSE5281,GSE5281_unknown_GSM238813,MTG,78.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238815,MTG_affected_6,GSE5281,GSE5281_unknown_GSM238815,MTG,75.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238816,MTG_affected_7,GSE5281,GSE5281_unknown_GSM238816,MTG,87.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238817,MTG_affected_8,GSE5281,GSE5281_unknown_GSM238817,MTG,90.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238818,MTG_affected_9,GSE5281,GSE5281_unknown_GSM238818,MTG,68.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238819,MTG_affected_10,GSE5281,GSE5281_unknown_GSM238819,MTG,81.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238820,MTG_affected_11,GSE5281,GSE5281_unknown_GSM238820,MTG,85.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238821,MTG_affected_12,GSE5281,GSE5281_unknown_GSM238821,MTG,79.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238822,MTG_affected_13,GSE5281,GSE5281_unknown_GSM238822,MTG,82.0,F,,AD,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238823,MTG_affected_14,GSE5281,GSE5281_unknown_GSM238823,MTG,88.0,M,,AD,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238824,MTG_affected_15,GSE5281,GSE5281_unknown_GSM238824,MTG,72.0,M,,AD,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238825,MTG_affected_16,GSE5281,GSE5281_unknown_GSM238825,MTG,80.0,F,,AD,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",temporal_cortex,,,excluded
+GSM238826,PC_affected_1,GSE5281,GSE5281_unknown_GSM238826,PC,73.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM238827,PC_affected_2,GSE5281,GSE5281_unknown_GSM238827,PC,81.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM238834,PC_affected_3,GSE5281,GSE5281_unknown_GSM238834,PC,78.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM238835,PC_affected_4,GSE5281,GSE5281_unknown_GSM238835,PC,75.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM238837,PC_affected_5,GSE5281,GSE5281_unknown_GSM238837,PC,68.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM238838,PC_affected_6,GSE5281,GSE5281_unknown_GSM238838,PC,70.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM238839,PC_affected_7,GSE5281,GSE5281_unknown_GSM238839,PC,85.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM238840,PC_affected_8,GSE5281,GSE5281_unknown_GSM238840,PC,79.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM238841,PC_affected_9,GSE5281,GSE5281_unknown_GSM238841,PC,88.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",cingulate_cortex,,,excluded
+GSM238842,SFG_affected_1,GSE5281,GSE5281_unknown_GSM238842,SFG,73.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238843,SFG_affected_2,GSE5281,GSE5281_unknown_GSM238843,SFG,81.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238844,SFG_affected_3,GSE5281,GSE5281_unknown_GSM238844,SFG,72.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238845,SFG_affected_4,GSE5281,GSE5281_unknown_GSM238845,SFG,75.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238846,SFG_affected_5,GSE5281,GSE5281_unknown_GSM238846,SFG,78.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238847,SFG_affected_6,GSE5281,GSE5281_unknown_GSM238847,SFG,75.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238848,SFG_affected_7,GSE5281,GSE5281_unknown_GSM238848,SFG,87.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238851,SFG_affected_8,GSE5281,GSE5281_unknown_GSM238851,SFG,95.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238854,SFG_affected_9,GSE5281,GSE5281_unknown_GSM238854,SFG,68.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238855,SFG_affected_10,GSE5281,GSE5281_unknown_GSM238855,SFG,95.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238856,SFG_affected_11,GSE5281,GSE5281_unknown_GSM238856,SFG,70.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238857,SFG_affected_12,GSE5281,GSE5281_unknown_GSM238857,SFG,85.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238858,SFG_affected_13,GSE5281,GSE5281_unknown_GSM238858,SFG,83.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238860,SFG_affected_14,GSE5281,GSE5281_unknown_GSM238860,SFG,77.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238861,SFG_affected_15,GSE5281,GSE5281_unknown_GSM238861,SFG,83.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238862,SFG_affected_16,GSE5281,GSE5281_unknown_GSM238862,SFG,68.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238863,SFG_affected_17,GSE5281,GSE5281_unknown_GSM238863,SFG,79.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238864,SFG_affected_18,GSE5281,GSE5281_unknown_GSM238864,SFG,82.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238865,SFG_affected_19,GSE5281,GSE5281_unknown_GSM238865,SFG,80.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238867,SFG_affected_20,GSE5281,GSE5281_unknown_GSM238867,SFG,88.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238868,SFG_affected_21,GSE5281,GSE5281_unknown_GSM238868,SFG,74.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238870,SFG_affected_22,GSE5281,GSE5281_unknown_GSM238870,SFG,72.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238871,SFG_affected_23,GSE5281,GSE5281_unknown_GSM238871,SFG,80.0,F,,AD,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",frontal_cortex,,,excluded
+GSM238872,VCX_affected_1,GSE5281,GSE5281_unknown_GSM238872,VCX,73.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238873,VCX_affected_2,GSE5281,GSE5281_unknown_GSM238873,VCX,81.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238874,VCX_affected_3,GSE5281,GSE5281_unknown_GSM238874,VCX,75.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238875,VCX_affected_4,GSE5281,GSE5281_unknown_GSM238875,VCX,78.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238877,VCX_affected_5,GSE5281,GSE5281_unknown_GSM238877,VCX,75.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238941,VCX_affected_6,GSE5281,GSE5281_unknown_GSM238941,VCX,87.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238942,VCX_affected_7,GSE5281,GSE5281_unknown_GSM238942,VCX,95.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238943,VCX_affected_8,GSE5281,GSE5281_unknown_GSM238943,VCX,68.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238944,VCX_affected_9,GSE5281,GSE5281_unknown_GSM238944,VCX,90.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238945,VCX_affected_10,GSE5281,GSE5281_unknown_GSM238945,VCX,81.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238946,VCX_affected_11,GSE5281,GSE5281_unknown_GSM238946,VCX,81.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238947,VCX_affected_12,GSE5281,GSE5281_unknown_GSM238947,VCX,85.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238948,VCX_affected_13,GSE5281,GSE5281_unknown_GSM238948,VCX,79.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238949,VCX_affected_14,GSE5281,GSE5281_unknown_GSM238949,VCX,79.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238951,VCX_affected_15,GSE5281,GSE5281_unknown_GSM238951,VCX,82.0,F,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238952,VCX_affected_16,GSE5281,GSE5281_unknown_GSM238952,VCX,88.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238953,VCX_affected_17,GSE5281,GSE5281_unknown_GSM238953,VCX,74.0,M,,AD,pyramidal neuron,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238955,VCX_affected_18,GSE5281,GSE5281_unknown_GSM238955,VCX,72.0,M,,AD,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded
+GSM238963,VCX_affected_19,GSE5281,GSE5281_unknown_GSM238963,VCX,80.0,F,,AD,layer III neurons,"GPL570 (Affymetrix U133 Plus 2.0), laser-captured neurons",occipital_cortex,,,excluded

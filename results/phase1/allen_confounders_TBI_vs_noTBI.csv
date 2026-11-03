@@ -1,0 +1,11 @@
+variable,test,TBI,noTBI,p
+age,Mann-Whitney,89.0 (n=56),90.5 (n=50),0.640124271298008
+braak,Mann-Whitney,4.0 (n=56),3.0 (n=50),0.3316322928366746
+cerad,Mann-Whitney,1.0 (n=56),1.0 (n=50),0.8468745920650765
+nia_reagan,Mann-Whitney,1.5 (n=56),1.0 (n=50),0.9165597583328559
+education_years,Mann-Whitney,14.0 (n=56),14.0 (n=50),0.5866613685109701
+sex,chi-square,"F:22, M:34","F:21, M:29",0.9314823459818321
+dementia,chi-square,"0:28, 1:28","0:28, 1:22",0.6724001533643016
+apoe4,chi-square,"N:43, Y:10","N:36, Y:10",0.9172277220765662
+diagnosis,chi-square,"AD:22, control:28, other_dementia:6","AD:21, control:28, other_dementia:1",0.19538912008034595
+race,chi-square,"Non-white:0, White:56","Non-white:2, White:48",0.4260520703446601

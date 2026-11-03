@@ -1,0 +1,66 @@
+diagnosis            AD     HD  control  other_dementia
+dataset   region                                       
+GSE104687 FWM      38.0    0.0     48.0             7.0
+          HIP      36.0    0.0     51.0             7.0
+          PCx      37.0    0.0     47.0             7.0
+          TCx      41.0    0.0     50.0             7.0
+GSE132903 MTG      97.0    0.0     98.0             0.0
+GSE33000  DLPFC   310.0  157.0    157.0             0.0
+GSE48350  EC       15.0    0.0     39.0             0.0
+          HIP      19.0    0.0     43.0             0.0
+          PCG      25.0    0.0     43.0             0.0
+          SFG      21.0    0.0     48.0             0.0
+GSE5281   EC       10.0    0.0     13.0             0.0
+          HIP      10.0    0.0     13.0             0.0
+          MTG      16.0    0.0     12.0             0.0
+          PC        9.0    0.0     13.0             0.0
+          SFG      23.0    0.0     11.0             0.0
+          VCX      19.0    0.0     12.0             0.0
+
+AD vs control confounders (donor level):
+   dataset variable         test           AD      control            p
+ GSE33000      age Mann-Whitney 82.0 (n=310) 62.0 (n=157) 2.692891e-45
+ GSE33000      sex   chi-square F:175, M:135  F:34, M:123 1.850460e-12
+GSE132903      age Mann-Whitney  86.0 (n=97)  85.0 (n=98) 8.938766e-01
+GSE132903      sex   chi-square   F:48, M:49   F:48, M:50 1.000000e+00
+ GSE48350      age Mann-Whitney  85.5 (n=28)  83.0 (n=35) 3.115772e-01
+ GSE48350      sex   chi-square   F:17, M:11   F:19, M:16 7.978167e-01
+  GSE5281      age Mann-Whitney  79.0 (n=87)  79.0 (n=74) 8.597105e-01
+  GSE5281      sex   chi-square   F:37, M:50   F:21, M:53 8.928152e-02
+
+Allen TBI vs no TBI (donor level):
+        variable         test                                 TBI                               noTBI        p
+            age Mann-Whitney                         89.0 (n=56)                         90.5 (n=50) 0.640124
+          braak Mann-Whitney                          4.0 (n=56)                          3.0 (n=50) 0.331632
+          cerad Mann-Whitney                          1.0 (n=56)                          1.0 (n=50) 0.846875
+     nia_reagan Mann-Whitney                          1.5 (n=56)                          1.0 (n=50) 0.916560
+education_years Mann-Whitney                         14.0 (n=56)                         14.0 (n=50) 0.586661
+            sex   chi-square                          F:22, M:34                          F:21, M:29 0.931482
+       dementia   chi-square                          0:28, 1:28                          0:28, 1:22 0.672400
+          apoe4   chi-square                          N:43, Y:10                          N:36, Y:10 0.917228
+      diagnosis   chi-square AD:22, control:28, other_dementia:6 AD:21, control:28, other_dementia:1 0.195389
+           race   chi-square               Non-white:0, White:56               Non-white:2, White:48 0.426052
+
+Allen sample-level:
+ variable         test                                                                                                                                TBI                                                                                                                             noTBI        p
+     rin Mann-Whitney                                                                                                                        6.6 (n=194)                                                                                                                       6.6 (n=182) 0.388862
+  region   chi-square                                                                                                     FWM:48, HIP:48, PCx:47, TCx:51                                                                                                    FWM:45, HIP:46, PCx:44, TCx:47 0.999333
+   batch   chi-square TBI-101:11, TBI-102:19, TBI-103:16, TBI-104:26, TBI-105:16, TBI-106:20, TBI-107:21, TBI-108:16, TBI-109:18, TBI-110:19, TBI-111:12 TBI-101:15, TBI-102:13, TBI-103:23, TBI-104:9, TBI-105:19, TBI-106:20, TBI-107:16, TBI-108:18, TBI-109:16, TBI-110:19, TBI-111:14 0.271548
+
+Allen donors, TBI x diagnosis:
+ diagnosis  AD  control  other_dementia  All
+tbi_lbl                                    
+TBI        22       28               6   56
+noTBI      21       28               1   50
+All        43       56               7  106
+
+Allen samples per region:
+ tbi      TBI       noTBI      
+dementia Dem NoDem   Dem NoDem
+region                        
+FWM       25    23    20    25
+HIP       24    24    19    27
+PCx       25    22    19    25
+TCx       27    24    21    26
+
+Allen matched pairs: control_set values per donor: {2: 52, 1: 2}

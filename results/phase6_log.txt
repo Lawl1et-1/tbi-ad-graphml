@@ -1,0 +1,66 @@
+lr_l2 s101: held-out 20% AUROC 0.964 {'C': 1.0} 1s
+lr_l2 s102: held-out 20% AUROC 0.966 {'C': 1.0} 1s
+lr_l2 s103: held-out 20% AUROC 0.940 {'C': 1.0} 0s
+lr_l2 s104: held-out 20% AUROC 0.981 {'C': 1.0} 1s
+lr_l2 s105: held-out 20% AUROC 0.928 {'C': 1.0} 1s
+lr_l1 s101: held-out 20% AUROC 0.958 {'C': 0.5} 1s
+lr_l1 s102: held-out 20% AUROC 0.950 {'C': 0.5} 1s
+lr_l1 s103: held-out 20% AUROC 0.953 {'C': 0.5} 1s
+lr_l1 s104: held-out 20% AUROC 0.970 {'C': 0.5} 1s
+lr_l1 s105: held-out 20% AUROC 0.912 {'C': 0.5} 1s
+rf s101: held-out 20% AUROC 0.897 {} 1s
+rf s102: held-out 20% AUROC 0.875 {} 1s
+rf s103: held-out 20% AUROC 0.831 {} 1s
+rf s104: held-out 20% AUROC 0.895 {} 1s
+rf s105: held-out 20% AUROC 0.866 {} 1s
+mlp s101: held-out 20% AUROC 0.942 {} 2s
+mlp s102: held-out 20% AUROC 0.919 {} 1s
+mlp s103: held-out 20% AUROC 0.919 {} 1s
+mlp s104: held-out 20% AUROC 0.935 {} 2s
+mlp s105: held-out 20% AUROC 0.871 {} 1s
+gat s101: held-out 20% AUROC 0.970 {'best_epoch': 14} 248s
+gat s102: held-out 20% AUROC 0.935 {'best_epoch': 13} 231s
+gat s103: held-out 20% AUROC 0.921 {'best_epoch': 10} 198s
+gat s104: held-out 20% AUROC 0.947 {'best_epoch': 11} 210s
+gat s105: held-out 20% AUROC 0.879 {'best_epoch': 10} 204s
+EXTERNAL GSE33000
+       auroc_all auroc_age_ge65 n_age_ge65 OR_per_SD_adjusted_age_sex                OR_CI95 p_adjusted
+lr_l2  0.893446       0.882202  [292, 68]                  15.638749   [7.64656, 31.984378]        0.0
+lr_l1  0.921841       0.900987  [292, 68]                  16.923114  [8.243973, 34.739532]        0.0
+rf     0.930388        0.89998  [292, 68]                  10.268811    [5.884828, 17.9187]        0.0
+mlp    0.928827       0.912017  [292, 68]                  15.916448  [7.973587, 31.771563]        0.0
+gat    0.926361       0.915492  [292, 68]                  12.460864  [6.931106, 22.402362]        0.0
+ALLEN SANITY
+ model region  auroc_clinical_AD  rho_braak  rho_cerad  rho_nia_reagan
+lr_l2    FWM              0.661      0.213      0.324           0.267
+lr_l2    HIP              0.748      0.296      0.361           0.269
+lr_l2    PCx              0.752      0.228      0.321           0.276
+lr_l2    TCx              0.689      0.116      0.207           0.195
+lr_l2    all              0.710      0.218      0.298           0.250
+lr_l1    FWM              0.656      0.113      0.203           0.141
+lr_l1    HIP              0.684      0.184      0.294           0.199
+lr_l1    PCx              0.807      0.255      0.322           0.304
+lr_l1    TCx              0.686      0.110      0.219           0.179
+lr_l1    all              0.707      0.166      0.261           0.205
+   rf    FWM              0.537     -0.000      0.078           0.041
+   rf    HIP              0.760      0.312      0.295           0.242
+   rf    PCx              0.707      0.221      0.321           0.261
+   rf    TCx              0.643      0.113      0.252           0.185
+   rf    all              0.657      0.164      0.236           0.184
+  mlp    FWM              0.673      0.176      0.168           0.157
+  mlp    HIP              0.739      0.279      0.323           0.224
+  mlp    PCx              0.749      0.158      0.241           0.172
+  mlp    TCx              0.680      0.080      0.203           0.153
+  mlp    all              0.710      0.176      0.236           0.176
+  gat    FWM              0.745      0.136      0.170           0.145
+  gat    HIP              0.734      0.267      0.288           0.191
+  gat    PCx              0.729      0.142      0.303           0.234
+  gat    TCx              0.634      0.109      0.247           0.219
+  gat    all              0.710      0.176      0.262           0.205
+TBI TESTS
+       mixed_tbi_beta_SD        mixed_tbi_CI95 mixed_tbi_p mixed_dementia_beta_SD unadjusted_tbi_p interaction_p    dose_p pair_mean_diff_SD         pair_diff_CI95 pair_wilcoxon_p frac_pairs_TBI_higher
+lr_l2           0.37672  [0.123912, 0.629529]    0.003493               0.468999         0.002392      0.513201  0.008563          0.357547   [0.066749, 0.651216]        0.029155                 0.625
+lr_l1          0.351188   [0.09481, 0.607565]    0.007258               0.429782         0.005057      0.655014  0.022788          0.338979   [0.058597, 0.631945]        0.051355              0.541667
+rf             0.144131  [-0.10788, 0.396142]    0.262311               0.283038         0.204742      0.226252  0.165681          0.151315  [-0.144692, 0.449857]        0.406604              0.541667
+mlp            0.370201  [0.104555, 0.635847]    0.006307                0.42877         0.004225      0.600036  0.008392          0.356169   [0.056533, 0.660655]        0.034205              0.604167
+gat            0.304582  [0.036745, 0.572418]    0.025824               0.511655         0.017726      0.308803  0.045391           0.31013   [0.014747, 0.620413]        0.093754              0.645833

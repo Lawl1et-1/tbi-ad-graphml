@@ -1,0 +1,5 @@
+gat_string seed 42 fold 0: AUROC 0.656 {'best_epoch': 1} 151s
+gat_string seed 42 fold 1: AUROC 0.889 {'best_epoch': 34} 470s
+gat_string seed 42 fold 2: AUROC 0.552 {'best_epoch': 1} 117s
+gat_string seed 42 fold 3: AUROC 0.429 {'best_epoch': 2} 131s
+gat_string seed 42 fold 4: AUROC 0.704 {'best_epoch': 39} 447s

@@ -1,0 +1,9 @@
+dataset,variable,test,AD,control,p
+GSE33000,age,Mann-Whitney,82.0 (n=310),62.0 (n=157),2.692890943264235e-45
+GSE33000,sex,chi-square,"F:175, M:135","F:34, M:123",1.8504600081118813e-12
+GSE132903,age,Mann-Whitney,86.0 (n=97),85.0 (n=98),0.893876561232902
+GSE132903,sex,chi-square,"F:48, M:49","F:48, M:50",1.0
+GSE48350,age,Mann-Whitney,85.5 (n=28),83.0 (n=35),0.31157718279157887
+GSE48350,sex,chi-square,"F:17, M:11","F:19, M:16",0.7978166621578462
+GSE5281,age,Mann-Whitney,79.0 (n=87),79.0 (n=74),0.8597104548844909
+GSE5281,sex,chi-square,"F:37, M:50","F:21, M:53",0.08928152106690901
