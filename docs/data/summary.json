@@ -1,0 +1,136 @@
+{
+ "cv": {
+  "lr_l2": {
+   "auroc": 0.946,
+   "ci": "[0.926, 0.968]"
+  },
+  "gat_none": {
+   "auroc": 0.931,
+   "ci": "[0.905, 0.954]"
+  },
+  "lr_l1": {
+   "auroc": 0.929,
+   "ci": "[0.919, 0.962]"
+  },
+  "gat_random": {
+   "auroc": 0.906,
+   "ci": "[0.873, 0.933]"
+  },
+  "gat_string": {
+   "auroc": 0.904,
+   "ci": "[0.885, 0.943]"
+  },
+  "mlp": {
+   "auroc": 0.9,
+   "ci": "[0.878, 0.940]"
+  },
+  "gat_coexpr": {
+   "auroc": 0.875,
+   "ci": "[0.839, 0.909]"
+  },
+  "rf": {
+   "auroc": 0.848,
+   "ci": "[0.812, 0.888]"
+  }
+ },
+ "lodo": {
+  "gat": 0.762,
+  "lr_l1": 0.712,
+  "lr_l2": 0.755,
+  "mlp": 0.743,
+  "rf": 0.737
+ },
+ "tbi": {
+  "lr_l2": {
+   "beta": 0.38,
+   "ci": [
+    0.12,
+    0.63
+   ],
+   "p": 0.003,
+   "pair": 0.36,
+   "signflip_p": 0.024,
+   "dose_p": 0.009,
+   "random_pct": 99.95
+  },
+  "gat": {
+   "beta": 0.3,
+   "ci": [
+    0.04,
+    0.57
+   ],
+   "p": 0.026,
+   "pair": 0.31,
+   "signflip_p": 0.054,
+   "dose_p": 0.045,
+   "random_pct": 99.5
+  },
+  "lr_l1": {
+   "beta": 0.35,
+   "ci": [
+    0.09,
+    0.61
+   ],
+   "p": 0.007,
+   "pair": 0.34,
+   "signflip_p": 0.025,
+   "dose_p": 0.023,
+   "random_pct": 99.9
+  },
+  "mlp": {
+   "beta": 0.37,
+   "ci": [
+    0.1,
+    0.64
+   ],
+   "p": 0.006,
+   "pair": 0.36,
+   "signflip_p": 0.027,
+   "dose_p": 0.008,
+   "random_pct": 99.95
+  },
+  "rf": {
+   "beta": 0.14,
+   "ci": [
+    -0.11,
+    0.4
+   ],
+   "p": 0.262,
+   "pair": 0.15,
+   "signflip_p": 0.325,
+   "dose_p": 0.166,
+   "random_pct": 87.55
+  }
+ },
+ "external": {
+  "lr_l2": {
+   "auroc": 0.893,
+   "auroc65": 0.882
+  },
+  "gat": {
+   "auroc": 0.926,
+   "auroc65": 0.915
+  },
+  "lr_l1": {
+   "auroc": 0.922,
+   "auroc65": 0.901
+  },
+  "mlp": {
+   "auroc": 0.929,
+   "auroc65": 0.912
+  },
+  "rf": {
+   "auroc": 0.93,
+   "auroc65": 0.9
+  }
+ },
+ "ad_signature": {
+  "genes_tested": 11027,
+  "fdr05": 6625,
+  "fdr05_consistent_3of3": 3914,
+  "up": 1736,
+  "down": 2178
+ },
+ "replication_sign_agreement": 0.857,
+ "gene_level_global_p": 0.24
+}

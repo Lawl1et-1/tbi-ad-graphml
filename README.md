@@ -8,6 +8,9 @@ drive that.
 > **All results are computational associations in post-mortem tissue. Nothing here shows causation or supports any
 > clinical use.**
 
+**Project page with an interactive score explorer: https://lawl1et-1.github.io/tbi-ad-graphml/**
+(static site in `docs/`, data exported by `src/phase7_export_site.py`).
+
 ## Main findings
 
 1. **A robust AD signature.** 3,914 genes change consistently in AD across three training cohorts (meta-analysis),
