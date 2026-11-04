@@ -41,7 +41,7 @@ h3 { font-size: 18px; margin-top: 18px; }
 
 .answer h2 { max-width: 30ch; }
 .answer > p { max-width: 70ch; }
-.note { font-size: 14px; color: var(--muted); border-left: 3px solid var(--accent); padding-left: 12px; }
+.note { font-size: 14px; color: var(--muted); background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 10px 14px; max-width: 70ch; }
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; margin: 24px 0; }
 .card { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 16px; }
 .card .num { font: 650 30px/1.1 var(--serif); }
