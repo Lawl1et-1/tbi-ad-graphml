@@ -14,7 +14,7 @@
 - [x] Phase 6: Transfer to TBI and interpretation — done 2026-11-03, see `results/phase6/PHASE6_REPORT.md`
 - [x] Phase 7: Deliverables — done 2026-11-03: `README.md`, `results/figures/`, Streamlit app `app/app.py` (tested in browser)
 
-**ALL PHASES DONE.** Possible next steps (not started): git repo + push; slide deck from `results/figures/`;
+**ALL PHASES DONE.** Live site: https://lawl1et-1.github.io/tbi-ad-graphml/ (GitHub Pages from main /docs; rebuild data with `src/phase7_export_site.py`; bump `?v=` in docs/index.html after changing app.js/style.css). Repo: https://github.com/Lawl1et-1/tbi-ad-graphml (public). Possible next steps (not started): git repo + push; slide deck from `results/figures/`;
 cell-type deconvolution of Allen data; per-fold co-expression graph; GAT hyperparameter search.
 
 **Working mode (user, 2026-11-03): "keep working without asking me".** Go through phases without waiting for a
