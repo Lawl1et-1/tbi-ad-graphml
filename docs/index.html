@@ -8,71 +8,76 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=6">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='11' cy='16' r='7' fill='%23b4432f'/><circle cx='21' cy='16' r='7' fill='%23396e8f' fill-opacity='.85'/></svg>">
 </head>
 <body>
+<div class="lang" role="group" aria-label="Language / Langue">
+  <button type="button" data-lang="en" aria-pressed="true" lang="en" title="English">EN</button>
+  <button type="button" data-lang="fr" aria-pressed="false" lang="fr" title="Français">FR</button>
+</div>
+
 <header class="masthead">
   <div class="wrap">
-    <p class="kicker">Computational study · public post-mortem brain transcriptomes</p>
-    <h1>Do brains with a history of traumatic brain injury look like Alzheimer's brains?</h1>
-    <p class="lede">A model learns the gene-expression signature of Alzheimer's disease in three cohorts, then scores
+    <p class="kicker" data-i18n="kicker">Computational study · public post-mortem brain transcriptomes</p>
+    <h1 data-i18n="title">Do brains with a history of traumatic brain injury look like Alzheimer's brains?</h1>
+    <p class="lede" data-i18n="lede">A model learns the gene-expression signature of Alzheimer's disease in three cohorts, then scores
       376 brain samples from 106 donors of the Allen <em>Aging, Dementia and TBI</em> study that it never saw.</p>
     <nav class="links">
-      <a href="https://github.com/Lawl1et-1/tbi-ad-graphml">Code on GitHub</a>
-      <a href="#explorer">Explore the scores</a>
-      <a href="#limits">Limitations</a>
+      <a href="https://github.com/Lawl1et-1/tbi-ad-graphml" data-i18n="nav_code">Code on GitHub</a>
+      <a href="#explorer" data-i18n="nav_explore">Explore the scores</a>
+      <a href="#limits" data-i18n="nav_limits">Limitations</a>
     </nav>
   </div>
 </header>
 
 <main>
   <section class="wrap answer" aria-labelledby="answer-h">
-    <h2 id="answer-h">Short answer: slightly, and specifically in the Alzheimer direction.</h2>
-    <p>Donors with a past TBI with loss of consciousness score modestly higher on the Alzheimer signature than their
+    <h2 id="answer-h" data-i18n="answer_h">Short answer: slightly, and specifically in the Alzheimer direction.</h2>
+    <p data-i18n="answer_p">Donors with a past TBI with loss of consciousness score modestly higher on the Alzheimer signature than their
       matched partners without TBI. The shift is specific to the Alzheimer direction, but small, and it is not carried by
       any single gene. A graph neural network did <strong>not</strong> beat a linear model.</p>
     <div class="cards" id="cards"></div>
-    <p class="note">All results are statistical associations in post-mortem tissue. They do not show that TBI causes
+    <p class="note" data-i18n="note">All results are statistical associations in post-mortem tissue. They do not show that TBI causes
       Alzheimer's disease and have no clinical use.</p>
   </section>
 
   <section class="wrap" id="explorer" aria-labelledby="explorer-h">
-    <h2 id="explorer-h">Score explorer</h2>
-    <p class="section-intro">Each dot is one brain sample. Scores are in standard-deviation units across the Allen cohort;
+    <h2 id="explorer-h" data-i18n="explorer_h">Score explorer</h2>
+    <p class="section-intro" data-i18n="explorer_p">Each dot is one brain sample. Scores are in standard-deviation units across the Allen cohort;
       higher means more Alzheimer-like expression. Select a dot, or pick a sample from the list.</p>
     <div class="controls">
-      <label>Model
+      <label><span data-i18n="lbl_model">Model</span>
         <select id="model">
-          <option value="lr_l2">Logistic regression L2 (best)</option>
-          <option value="gat">GAT on STRING graph</option>
-          <option value="lr_l1">Logistic regression L1</option>
-          <option value="mlp">MLP</option>
-          <option value="rf">Random forest</option>
+          <option value="lr_l2" data-i18n="m_lr_l2">Logistic regression L2 (best)</option>
+          <option value="gat" data-i18n="m_gat">GAT on STRING graph</option>
+          <option value="lr_l1" data-i18n="m_lr_l1">Logistic regression L1</option>
+          <option value="mlp" data-i18n="m_mlp">MLP</option>
+          <option value="rf" data-i18n="m_rf">Random forest</option>
         </select>
       </label>
-      <label>Region
+      <label><span data-i18n="lbl_region">Region</span>
         <select id="region">
-          <option value="all">All regions</option>
-          <option value="TCx">Temporal cortex</option>
-          <option value="PCx">Parietal cortex</option>
-          <option value="HIP">Hippocampus</option>
-          <option value="FWM">White matter</option>
+          <option value="all" data-i18n="r_all">All regions</option>
+          <option value="TCx" data-i18n="r_TCx">Temporal cortex</option>
+          <option value="PCx" data-i18n="r_PCx">Parietal cortex</option>
+          <option value="HIP" data-i18n="r_HIP">Hippocampus</option>
+          <option value="FWM" data-i18n="r_FWM">White matter</option>
         </select>
       </label>
-      <label>Sample
+      <label><span data-i18n="lbl_sample">Sample</span>
         <select id="sample"></select>
       </label>
     </div>
     <div class="explorer">
       <figure class="panel plot-panel">
-        <div id="swarm" class="swarm" role="img" aria-label="AD-likeness scores of TBI and non-TBI samples"></div>
+        <div id="swarm" class="swarm" role="img" data-i18n-aria="aria_swarm" aria-label="AD-likeness scores of TBI and non-TBI samples"></div>
         <figcaption id="swarm-cap"></figcaption>
       </figure>
       <aside class="panel sample-panel" aria-live="polite">
         <div id="sample-head"></div>
-        <h3>Genes driving this sample's score</h3>
-        <p class="tiny">Logistic-regression contribution (coefficient × standardized expression).
+        <h3 data-i18n="genes_drive_h">Genes driving this sample's score</h3>
+        <p class="tiny" data-i18n="genes_drive_p">Logistic-regression contribution (coefficient × standardized expression).
           <span class="sw pos"></span> pushes toward Alzheimer's, <span class="sw neg"></span> away from it.</p>
         <div id="contrib"></div>
       </aside>
@@ -80,105 +85,107 @@
   </section>
 
   <section class="wrap" aria-labelledby="genes-h">
-    <h2 id="genes-h">Gene neighbourhoods</h2>
-    <p class="section-intro">The 102 genes whose weights are stable across the five final logistic-regression models,
+    <h2 id="genes-h" data-i18n="ego_h">Gene neighbourhoods</h2>
+    <p class="section-intro" data-i18n="ego_p">The 102 genes whose weights are stable across the five final logistic-regression models,
       with their high-confidence STRING partners. Colour shows how the gene changes in Alzheimer's (meta-analysis z);
       size shows its weight in the score.</p>
     <div class="controls">
-      <label>Gene <select id="gene"></select></label>
+      <label><span data-i18n="lbl_gene">Gene</span> <select id="gene"></select></label>
     </div>
     <figure class="panel">
-      <div id="ego" class="ego" role="img" aria-label="STRING neighbourhood of the selected gene"></div>
+      <div id="ego" class="ego" role="img" data-i18n-aria="aria_ego" aria-label="STRING neighbourhood of the selected gene"></div>
       <figcaption id="ego-cap"></figcaption>
     </figure>
   </section>
 
   <section class="wrap" aria-labelledby="find-h">
-    <h2 id="find-h">What we found</h2>
+    <h2 id="find-h" data-i18n="find_h">What we found</h2>
     <ol class="findings">
-      <li><strong>A robust Alzheimer signature.</strong> <span data-k="adsig"></span> genes change consistently across
+      <li data-i18n="f1"><strong>A robust Alzheimer signature.</strong> <span data-k="adsig"></span> genes change consistently across
         three training cohorts; <span data-k="repl"></span> of them move the same way in a fourth, held-out cohort.
         Neuronal, synaptic and mitochondrial genes go down; vascular, TGF-β and innate-immune genes go up.</li>
-      <li><strong>No single TBI gene.</strong> In every brain region, no gene is significantly associated with TBI.
+      <li data-i18n="f2"><strong>No single TBI gene.</strong> In every brain region, no gene is significantly associated with TBI.
         Gene-by-gene overlap tests with Alzheimer's look highly significant in hippocampus, but collapse once donors,
         not genes, are permuted (all regions p = <span data-k="globp"></span>): correlated genes make naive tests overconfident.</li>
-      <li><strong>A modest, Alzheimer-specific shift per sample.</strong> TBI donors score
+      <li data-i18n="f3"><strong>A modest, Alzheimer-specific shift per sample.</strong> TBI donors score
         <span data-k="pair"></span> SD higher than their matched partners (exact sign-flip p = <span data-k="sfp"></span>;
         mixed model adjusted for age, sex, dementia, RNA quality and region: <span data-k="beta"></span> SD,
         p = <span data-k="mp"></span>), with a dose trend. The shift exceeds <span data-k="rand"></span>% of random gene signatures.
         It does not survive correction across the five models, and it weakens in non-demented donors alone.</li>
-      <li><strong>The graph did not help.</strong> Logistic regression reached AUROC <span data-k="lr"></span>, the GAT on the
+      <li data-i18n="f4"><strong>The graph did not help.</strong> Logistic regression reached AUROC <span data-k="lr"></span>, the GAT on the
         STRING network <span data-k="gat"></span>. The same GAT on a degree-preserving random graph scored
         <span data-k="gatr"></span>, and with no edges <span data-k="gatn"></span>. On an unseen cohort every model drops to about 0.75.</li>
-      <li><strong>Diffuse drivers.</strong> No gene and no pathway or cell-type set carries the TBI shift on its own.
+      <li data-i18n="f5"><strong>Diffuse drivers.</strong> No gene and no pathway or cell-type set carries the TBI shift on its own.
         GAT explanations were unstable across models and its attention just followed node degree, so interpretation uses
         the linear model.</li>
     </ol>
   </section>
 
   <section class="wrap" aria-labelledby="fig-h">
-    <h2 id="fig-h">Figures</h2>
+    <h2 id="fig-h" data-i18n="fig_h">Figures</h2>
+    <p class="section-intro" data-i18n="fig_note">Figure labels are in English.</p>
     <div class="gallery">
-      <figure><a href="figures/fig_tbi_scores_lr_l2.png"><img src="figures/fig_tbi_scores_lr_l2.png" alt="AD-likeness scores by region for TBI and non-TBI samples, and matched pairs" loading="lazy"></a>
-        <figcaption>Scores by region and the 48 matched TBI / non-TBI pairs.</figcaption></figure>
-      <figure><a href="figures/fig_random_signature_null.png"><img src="figures/fig_random_signature_null.png" alt="Observed TBI shift against 2,000 random gene signatures" loading="lazy"></a>
-        <figcaption>The TBI shift against 2,000 random gene signatures.</figcaption></figure>
-      <figure><a href="figures/fig_model_performance.png"><img src="figures/fig_model_performance.png" alt="AUROC of the GAT variants and baselines" loading="lazy"></a>
-        <figcaption>GAT variants vs baselines, cross-validation and leave-one-cohort-out.</figcaption></figure>
-      <figure><a href="figures/fig_naive_vs_permutation.png"><img src="figures/fig_naive_vs_permutation.png" alt="Naive hypergeometric p-values against matched-pair permutation p-values" loading="lazy"></a>
-        <figcaption>Gene-level tests overstate the TBI–Alzheimer overlap.</figcaption></figure>
-      <figure><a href="figures/fig_tbi_vs_ad.png"><img src="figures/fig_tbi_vs_ad.png" alt="TBI statistics against AD meta z per region, with permutation nulls" loading="lazy"></a>
-        <figcaption>TBI vs Alzheimer gene statistics per region, with permutation nulls.</figcaption></figure>
-      <figure><a href="figures/fig_ad_volcano.png"><img src="figures/fig_ad_volcano.png" alt="Volcano plot of the Alzheimer meta-analysis" loading="lazy"></a>
-        <figcaption>The Alzheimer signature (meta-analysis of three cohorts).</figcaption></figure>
-      <figure><a href="figures/pca_before_combat.png"><img src="figures/pca_before_combat.png" alt="PCA before batch correction" loading="lazy"></a>
-        <figcaption>Before batch correction: samples cluster by dataset.</figcaption></figure>
-      <figure><a href="figures/pca_after_combat.png"><img src="figures/pca_after_combat.png" alt="PCA after batch correction" loading="lazy"></a>
-        <figcaption>After correction: datasets mix and an Alzheimer axis appears.</figcaption></figure>
-      <figure><a href="figures/fig_importance_network.png"><img src="figures/fig_importance_network.png" alt="Stable score genes on the STRING network" loading="lazy"></a>
-        <figcaption>Stable score genes on the STRING network.</figcaption></figure>
+      <figure><a href="figures/fig_tbi_scores_lr_l2.png"><img src="figures/fig_tbi_scores_lr_l2.png" data-i18n-alt="a1" alt="AD-likeness scores by region for TBI and non-TBI samples, and matched pairs" loading="lazy"></a>
+        <figcaption data-i18n="c1">Scores by region and the 48 matched TBI / non-TBI pairs.</figcaption></figure>
+      <figure><a href="figures/fig_random_signature_null.png"><img src="figures/fig_random_signature_null.png" data-i18n-alt="a2" alt="Observed TBI shift against 2,000 random gene signatures" loading="lazy"></a>
+        <figcaption data-i18n="c2">The TBI shift against 2,000 random gene signatures.</figcaption></figure>
+      <figure><a href="figures/fig_model_performance.png"><img src="figures/fig_model_performance.png" data-i18n-alt="a3" alt="AUROC of the GAT variants and baselines" loading="lazy"></a>
+        <figcaption data-i18n="c3">GAT variants vs baselines, cross-validation and leave-one-cohort-out.</figcaption></figure>
+      <figure><a href="figures/fig_naive_vs_permutation.png"><img src="figures/fig_naive_vs_permutation.png" data-i18n-alt="a4" alt="Naive hypergeometric p-values against matched-pair permutation p-values" loading="lazy"></a>
+        <figcaption data-i18n="c4">Gene-level tests overstate the TBI–Alzheimer overlap.</figcaption></figure>
+      <figure><a href="figures/fig_tbi_vs_ad.png"><img src="figures/fig_tbi_vs_ad.png" data-i18n-alt="a5" alt="TBI statistics against AD meta z per region, with permutation nulls" loading="lazy"></a>
+        <figcaption data-i18n="c5">TBI vs Alzheimer gene statistics per region, with permutation nulls.</figcaption></figure>
+      <figure><a href="figures/fig_ad_volcano.png"><img src="figures/fig_ad_volcano.png" data-i18n-alt="a6" alt="Volcano plot of the Alzheimer meta-analysis" loading="lazy"></a>
+        <figcaption data-i18n="c6">The Alzheimer signature (meta-analysis of three cohorts).</figcaption></figure>
+      <figure><a href="figures/pca_before_combat.png"><img src="figures/pca_before_combat.png" data-i18n-alt="a7" alt="PCA before batch correction" loading="lazy"></a>
+        <figcaption data-i18n="c7">Before batch correction: samples cluster by dataset.</figcaption></figure>
+      <figure><a href="figures/pca_after_combat.png"><img src="figures/pca_after_combat.png" data-i18n-alt="a8" alt="PCA after batch correction" loading="lazy"></a>
+        <figcaption data-i18n="c8">After correction: datasets mix and an Alzheimer axis appears.</figcaption></figure>
+      <figure><a href="figures/fig_importance_network.png"><img src="figures/fig_importance_network.png" data-i18n-alt="a9" alt="Stable score genes on the STRING network" loading="lazy"></a>
+        <figcaption data-i18n="c9">Stable score genes on the STRING network.</figcaption></figure>
     </div>
   </section>
 
   <section class="wrap two-col" aria-labelledby="method-h">
     <div>
-      <h2 id="method-h">Data and method</h2>
+      <h2 id="method-h" data-i18n="method_h">Data and method</h2>
       <table class="data">
-        <thead><tr><th>Role</th><th>Dataset</th><th>Tissue</th><th>Donors</th></tr></thead>
+        <thead><tr><th data-i18n="th_role">Role</th><th data-i18n="th_ds">Dataset</th><th data-i18n="th_tissue">Tissue</th><th data-i18n="th_donors">Donors</th></tr></thead>
         <tbody>
-          <tr><td>Train</td><td>GSE132903</td><td>Temporal cortex</td><td>195</td></tr>
-          <tr><td>Train</td><td>GSE118553</td><td>Temporal, entorhinal, frontal</td><td>78</td></tr>
-          <tr><td>Train</td><td>GSE48350</td><td>Hippocampus and 3 cortices</td><td>63</td></tr>
-          <tr><td>External test</td><td>GSE33000</td><td>Prefrontal cortex</td><td>467</td></tr>
-          <tr><td>TBI cohort</td><td>GSE104687 (Allen)</td><td>4 regions, RNA-seq</td><td>106</td></tr>
+          <tr><td data-i18n="role_train">Train</td><td>GSE132903</td><td data-i18n="t1">Temporal cortex</td><td>195</td></tr>
+          <tr><td data-i18n="role_train">Train</td><td>GSE118553</td><td data-i18n="t2">Temporal, entorhinal, frontal</td><td>78</td></tr>
+          <tr><td data-i18n="role_train">Train</td><td>GSE48350</td><td data-i18n="t3">Hippocampus and 3 cortices</td><td>63</td></tr>
+          <tr><td data-i18n="role_ext">External test</td><td>GSE33000</td><td data-i18n="t4">Prefrontal cortex</td><td>467</td></tr>
+          <tr><td data-i18n="role_tbi">TBI cohort</td><td>GSE104687 (Allen)</td><td data-i18n="t5">4 regions, RNA-seq</td><td>106</td></tr>
         </tbody>
       </table>
       <ol class="steps">
-        <li>Map four platforms to genes; correct batch effects with ComBat without using labels.</li>
-        <li>Classical biology: Alzheimer meta-analysis, DESeq2 for TBI per region, permutation-based overlap tests.</li>
-        <li>Gene graph: STRING v12 high-confidence edges over 4,000 selected genes.</li>
-        <li>Models: GAT with a per-gene readout vs logistic regression, random forest and MLP, cross-validated by donor.</li>
-        <li>Transfer: score the Allen samples; test TBI with mixed models, matched pairs, random-signature controls.</li>
+        <li data-i18n="s1">Map four platforms to genes; correct batch effects with ComBat without using labels.</li>
+        <li data-i18n="s2">Classical biology: Alzheimer meta-analysis, DESeq2 for TBI per region, permutation-based overlap tests.</li>
+        <li data-i18n="s3">Gene graph: STRING v12 high-confidence edges over 4,000 selected genes.</li>
+        <li data-i18n="s4">Models: GAT with a per-gene readout vs logistic regression, random forest and MLP, cross-validated by donor.</li>
+        <li data-i18n="s5">Transfer: score the Allen samples; test TBI with mixed models, matched pairs, random-signature controls.</li>
       </ol>
     </div>
     <div id="limits">
-      <h2>Limitations</h2>
+      <h2 data-i18n="limits_h">Limitations</h2>
       <ul class="limits">
-        <li>Small TBI cohort: 106 donors and 48 complete matched pairs; 0.3 SD effects are near the detection limit.</li>
-        <li>TBI is self-reported, with loss of consciousness, often decades before death; no severity data.</li>
-        <li>Bulk post-mortem tissue: cell-composition shifts and per-cell regulation cannot be separated.</li>
-        <li>Four platforms and batch correction; performance falls to about 0.75 AUROC on an unseen cohort.</li>
-        <li>Several models and regions were tested; the main effect does not survive Bonferroni correction.</li>
-        <li>Association only. No causal or clinical claims.</li>
+        <li data-i18n="l1">Small TBI cohort: 106 donors and 48 complete matched pairs; 0.3 SD effects are near the detection limit.</li>
+        <li data-i18n="l2">TBI is self-reported, with loss of consciousness, often decades before death; no severity data.</li>
+        <li data-i18n="l3">Bulk post-mortem tissue: cell-composition shifts and per-cell regulation cannot be separated.</li>
+        <li data-i18n="l4">Four platforms and batch correction; performance falls to about 0.75 AUROC on an unseen cohort.</li>
+        <li data-i18n="l5">Several models and regions were tested; the main effect does not survive Bonferroni correction.</li>
+        <li data-i18n="l6">Association only. No causal or clinical claims.</li>
       </ul>
     </div>
   </section>
 </main>
 
 <footer class="wrap foot">
-  <p>Public data: GEO and the Allen Institute Aging, Dementia and TBI Study. STRING v12. Enrichr gene sets.
+  <p data-i18n="foot">Public data: GEO and the Allen Institute Aging, Dementia and TBI Study. STRING v12. Enrichr gene sets.
     Full pipeline, reports and reproduction steps in the <a href="https://github.com/Lawl1et-1/tbi-ad-graphml">repository</a>.</p>
 </footer>
-<script src="app.js?v=2" defer></script>
+<script src="i18n.js?v=6"></script>
+<script src="app.js?v=6" defer></script>
 </body>
 </html>

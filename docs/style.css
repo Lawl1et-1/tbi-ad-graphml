@@ -98,3 +98,15 @@ table.data th { font-weight: 600; color: var(--muted); }
 .steps, .limits { padding-left: 20px; } .steps li, .limits li { margin-bottom: 6px; }
 .foot { border-top: 1px solid var(--rule); margin-top: 48px; padding: 20px 16px 40px; font-size: 14px; color: var(--muted); }
 @media (max-width: 520px) { table.data th:nth-child(3), table.data td:nth-child(3) { display: none; } }
+
+/* Language switch, fixed top right */
+.lang { position: fixed; top: 12px; right: 16px; z-index: 10; display: flex; padding: 3px; gap: 2px;
+  background: var(--surface); border: 1px solid var(--rule); border-radius: 999px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); }
+.lang button { font: 600 13px/1 var(--mono); letter-spacing: 0.04em; color: var(--muted); background: transparent;
+  border: 0; border-radius: 999px; min-width: 40px; min-height: 32px; padding: 0 10px; cursor: pointer; }
+.lang button:hover { color: var(--ink); }
+.lang button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.lang button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+html[lang="en"] [data-i18n="fig_note"] { display: none; }
+@media (max-width: 520px) { .masthead { padding-top: 64px; } .lang { position: absolute; } }
